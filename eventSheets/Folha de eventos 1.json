@@ -1,5 +1,83 @@
 {
 	"name": "Folha de eventos 1",
-	"events": [],
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 286785747249913,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "calendario"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "calendarioAberto",
+					"sid": 620373002525636,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-boolean-instvar",
+					"objectClass": "calendario",
+					"sid": 501540638613378,
+					"parameters": {
+						"instance-variable": "isOpen",
+						"value": "true"
+					}
+				}
+			],
+			"sid": 578835826495294
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-click",
+					"objectClass": "Mouse",
+					"sid": 888109277189060,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked"
+					}
+				},
+				{
+					"id": "is-boolean-instance-variable-set",
+					"objectClass": "calendario",
+					"sid": 664051547220880,
+					"parameters": {
+						"instance-variable": "isOpen"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "calendarioAberto",
+					"sid": 175425108391974,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-boolean-instvar",
+					"objectClass": "calendario",
+					"sid": 530263848972443,
+					"parameters": {
+						"instance-variable": "isOpen",
+						"value": "false"
+					}
+				}
+			],
+			"sid": 880393674018362
+		}
+	],
 	"sid": 359707975959212
 }

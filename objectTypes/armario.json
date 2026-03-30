@@ -1,0 +1,58 @@
+{
+	"name": "armario",
+	"plugin-id": "Sprite",
+	"sid": 758881185468853,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 470,
+						"height": 120,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/png",
+						"imageSpriteId": 4116572,
+						"collisionPoly": {
+							"points": [
+								0.04468085106382979,
+								0,
+								0.9574468085106383,
+								0,
+								0.9808510638297873,
+								0.05,
+								1,
+								0.11666666666666667,
+								0.9787234042553191,
+								0.9416666666666667,
+								0.2957446808510638,
+								0.9416666666666667,
+								0.02127659574468085,
+								0.925
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 894703661828296,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

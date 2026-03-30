@@ -17,6 +17,22 @@
 			"type": "plugin",
 			"id": "Text",
 			"name": "Texto",
+			"id": "Mouse",
+			"name": "Mouse",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Sprite",
+			"name": "Sprite",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "TextBox",
+			"name": "Entrada de texto",
 			"author": "Scirra",
 			"bundled": false
 		}
@@ -26,6 +42,13 @@
 		"items": [
 			"Texto",
 			"StartButton"
+			"Botão",
+			"EntradaDeTexto",
+			"quadroAvisos",
+			"armario",
+			"calendario",
+			"Mouse",
+			"calendarioAberto"
 		],
 		"subfolders": []
 	},
@@ -38,15 +61,16 @@
 	},
 	"layouts": {
 		"items": [
-			"Layout 1",
 			"StartScreen"
+			"Menu",
+			"Sala 1 Experimentos"
 		],
 		"subfolders": []
 	},
 	"eventSheets": {
 		"items": [
-			"Folha de eventos 1",
 			"StartScreen Events"
+			"Folha de eventos 1"
 		],
 		"subfolders": []
 	},
