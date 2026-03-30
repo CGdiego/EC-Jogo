@@ -1,7 +1,7 @@
 {
-	"name": "EntradaDeTexto",
-	"plugin-id": "TextBox",
-	"sid": 285015371423733,
+	"name": "StartButton",
+	"plugin-id": "Button",
+	"sid": 664338349999454,
 	"isGlobal": false,
 	"editorNewInstanceIsReplica": true,
 	"instanceVariables": [],

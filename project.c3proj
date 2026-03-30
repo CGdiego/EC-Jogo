@@ -15,8 +15,8 @@
 		},
 		{
 			"type": "plugin",
-			"id": "TextBox",
-			"name": "Entrada de texto",
+			"id": "Text",
+			"name": "Texto",
 			"author": "Scirra",
 			"bundled": false
 		}
@@ -24,8 +24,8 @@
 	"uniqueId": "miwmsaflqxi",
 	"objectTypes": {
 		"items": [
-			"Botão",
-			"EntradaDeTexto"
+			"Texto",
+			"StartButton"
 		],
 		"subfolders": []
 	},
@@ -38,13 +38,15 @@
 	},
 	"layouts": {
 		"items": [
-			"Layout 1"
+			"Layout 1",
+			"StartScreen"
 		],
 		"subfolders": []
 	},
 	"eventSheets": {
 		"items": [
-			"Folha de eventos 1"
+			"Folha de eventos 1",
+			"StartScreen Events"
 		],
 		"subfolders": []
 	},
