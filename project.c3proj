@@ -17,6 +17,11 @@
 			"type": "plugin",
 			"id": "Text",
 			"name": "Texto",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
 			"id": "Mouse",
 			"name": "Mouse",
 			"author": "Scirra",
@@ -41,7 +46,7 @@
 	"objectTypes": {
 		"items": [
 			"Texto",
-			"StartButton"
+			"StartButton",
 			"Botão",
 			"EntradaDeTexto",
 			"quadroAvisos",
@@ -61,7 +66,7 @@
 	},
 	"layouts": {
 		"items": [
-			"StartScreen"
+			"StartScreen",
 			"Menu",
 			"Sala 1 Experimentos"
 		],
@@ -69,7 +74,7 @@
 	},
 	"eventSheets": {
 		"items": [
-			"StartScreen Events"
+			"StartScreen Events",
 			"Folha de eventos 1"
 		],
 		"subfolders": []
