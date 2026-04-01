@@ -17,6 +17,7 @@
 			"type": "plugin",
 			"id": "Text",
 			"name": "Texto",
+<<<<<<< HEAD
 			"author": "Scirra",
 			"bundled": false
 		},
@@ -38,6 +39,8 @@
 			"type": "plugin",
 			"id": "TextBox",
 			"name": "Entrada de texto",
+=======
+>>>>>>> parent of 424237c (testing click on actions)
 			"author": "Scirra",
 			"bundled": false
 		}
@@ -46,6 +49,7 @@
 	"objectTypes": {
 		"items": [
 			"Texto",
+<<<<<<< HEAD
 			"StartButton",
 			"Botão",
 			"EntradaDeTexto",
@@ -54,6 +58,9 @@
 			"calendario",
 			"Mouse",
 			"calendarioAberto"
+=======
+			"StartButton"
+>>>>>>> parent of 424237c (testing click on actions)
 		],
 		"subfolders": []
 	},
@@ -66,16 +73,26 @@
 	},
 	"layouts": {
 		"items": [
+<<<<<<< HEAD
 			"StartScreen",
 			"Menu",
 			"Sala 1 Experimentos"
+=======
+			"Layout 1",
+			"StartScreen"
+>>>>>>> parent of 424237c (testing click on actions)
 		],
 		"subfolders": []
 	},
 	"eventSheets": {
 		"items": [
+<<<<<<< HEAD
 			"StartScreen Events",
 			"Folha de eventos 1"
+=======
+			"Folha de eventos 1",
+			"StartScreen Events"
+>>>>>>> parent of 424237c (testing click on actions)
 		],
 		"subfolders": []
 	},
