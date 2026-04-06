@@ -1,0 +1,197 @@
+{
+	"name": "Protagonista",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "key-is-down",
+					"objectClass": "Teclado",
+					"sid": 875861095256211,
+					"parameters": {
+						"key": 37
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-mirrored",
+					"objectClass": "JOGADOR",
+					"sid": 389665634498327,
+					"parameters": {
+						"state": "mirrored"
+					}
+				},
+				{
+					"id": "set-boolean-instvar",
+					"objectClass": "JOGADOR",
+					"sid": 786462546863617,
+					"parameters": {
+						"instance-variable": "movendo",
+						"value": "true"
+					}
+				}
+			],
+			"sid": 280462860873568
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "key-is-down",
+					"objectClass": "Teclado",
+					"sid": 885779623485221,
+					"parameters": {
+						"key": 39
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-boolean-instvar",
+					"objectClass": "JOGADOR",
+					"sid": 765589563890206,
+					"parameters": {
+						"instance-variable": "movendo",
+						"value": "true"
+					}
+				},
+				{
+					"id": "set-mirrored",
+					"objectClass": "JOGADOR",
+					"sid": 330573823451271,
+					"parameters": {
+						"state": "not-mirrored"
+					}
+				}
+			],
+			"sid": 304768531484364
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-boolean-instance-variable-set",
+					"objectClass": "JOGADOR",
+					"sid": 588739926731185,
+					"parameters": {
+						"instance-variable": "movendo"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "JOGADOR",
+					"sid": 229882285848998,
+					"parameters": {
+						"animation": "\"andar\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 138406629973525
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "else",
+					"objectClass": "System",
+					"sid": 824528670419079
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "JOGADOR",
+					"sid": 198600593009195,
+					"parameters": {
+						"animation": "\"normal\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 331456628879357
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-any-key-released",
+					"objectClass": "Teclado",
+					"sid": 107364195147421
+				}
+			],
+			"actions": [
+				{
+					"id": "set-boolean-instvar",
+					"objectClass": "JOGADOR",
+					"sid": 767055063379187,
+					"parameters": {
+						"instance-variable": "movendo",
+						"value": "false"
+					}
+				}
+			],
+			"sid": 326714594842307
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-boolean-instance-variable-set",
+					"objectClass": "OBJETOprancheta",
+					"sid": 945114821636131,
+					"parameters": {
+						"instance-variable": "Aberto"
+					}
+				},
+				{
+					"id": "is-boolean-instance-variable-set",
+					"objectClass": "OBJETOlista1",
+					"sid": 454087879416541,
+					"parameters": {
+						"instance-variable": "Aberto"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-enabled",
+					"objectClass": "JOGADOR",
+					"sid": 126574013620116,
+					"behaviorType": "Platform",
+					"parameters": {
+						"state": "disabled"
+					}
+				}
+			],
+			"sid": 902601133901250,
+			"isOrBlock": true
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "else",
+					"objectClass": "System",
+					"sid": 344139185758813
+				}
+			],
+			"actions": [
+				{
+					"id": "set-enabled",
+					"objectClass": "JOGADOR",
+					"sid": 270080161120546,
+					"behaviorType": "Platform",
+					"parameters": {
+						"state": "enabled"
+					}
+				}
+			],
+			"sid": 325265629531646
+		}
+	],
+	"sid": 252353394373787
+}

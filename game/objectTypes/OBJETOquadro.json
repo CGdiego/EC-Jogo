@@ -1,0 +1,54 @@
+{
+	"name": "OBJETOquadro",
+	"plugin-id": "Sprite",
+	"sid": 923143108467354,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 666,
+						"height": 375,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/png",
+						"imageSpriteId": 741720,
+						"collisionPoly": {
+							"points": [
+								0.042042042042042045,
+								0.06666666666666667,
+								0.9579579579579579,
+								0.08533333333333333,
+								0.9444444444444444,
+								0.9226666666666666,
+								0.5195195195195195,
+								0.9253333333333333,
+								0.042042042042042045,
+								0.9066666666666666
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 106401991567351,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

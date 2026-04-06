@@ -1,0 +1,475 @@
+{
+	"name": "Folha de eventos 1",
+	"events": [
+		{
+			"eventType": "variable",
+			"name": "usuario",
+			"type": "string",
+			"initialValue": "",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 351241946439421
+		},
+		{
+			"eventType": "include",
+			"includeSheet": "Protagonista"
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 566207677085704
+				}
+			],
+			"actions": [
+				{
+					"id": "set-position",
+					"objectClass": "OBJETOprancheta",
+					"sid": 735977766746945,
+					"parameters": {
+						"x": "OBJETOprancheta.OriginalX",
+						"y": "OBJETOprancheta.OriginalY"
+					}
+				},
+				{
+					"id": "set-size",
+					"objectClass": "OBJETOprancheta",
+					"sid": 820606281053488,
+					"parameters": {
+						"width": "OBJETOprancheta.OriginalWidth",
+						"height": "OBJETOprancheta.OriginalHeight"
+					}
+				},
+				{
+					"id": "set-position",
+					"objectClass": "OBJETOlista1",
+					"sid": 758455460141536,
+					"parameters": {
+						"x": "OBJETOlista1.OriginalX",
+						"y": "OBJETOlista1.OriginalY"
+					}
+				},
+				{
+					"id": "set-size",
+					"objectClass": "OBJETOlista1",
+					"sid": 737336562216764,
+					"parameters": {
+						"width": "OBJETOlista1.OriginalWidth",
+						"height": "OBJETOlista1.OriginalHeight"
+					}
+				},
+				{
+					"id": "set-boolean-instvar",
+					"objectClass": "OBJETOlista1",
+					"sid": 162776639830406,
+					"parameters": {
+						"instance-variable": "Aberto",
+						"value": "false"
+					}
+				},
+				{
+					"id": "set-boolean-instvar",
+					"objectClass": "OBJETOprancheta",
+					"sid": 720410098189343,
+					"parameters": {
+						"instance-variable": "Aberto",
+						"value": "false"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "OBJETOprancheta",
+					"sid": 594953293064005,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "OBJETOlista1",
+					"sid": 547238787279452,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "Text",
+					"sid": 143169034570397,
+					"parameters": {
+						"text": "OBJETOlista1.Aberto"
+					}
+				}
+			],
+			"sid": 412856706367635
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "cursor-is-over-object",
+					"objectClass": "Mouse",
+					"sid": 496464814625644,
+					"parameters": {
+						"object": "OBJETOprancheta"
+					}
+				}
+			],
+			"actions": [],
+			"sid": 300932289680905,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-boolean-instance-variable-set",
+							"objectClass": "OBJETOprancheta",
+							"sid": 168779311682952,
+							"parameters": {
+								"instance-variable": "Aberto"
+							},
+							"isInverted": true
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation",
+							"objectClass": "OBJETOprancheta",
+							"sid": 872094053788499,
+							"parameters": {
+								"animation": "\"hover\"",
+								"from": "beginning"
+							}
+						}
+					],
+					"sid": 766340002135939
+				}
+			]
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "else",
+					"objectClass": "System",
+					"sid": 642152114333936
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "OBJETOprancheta",
+					"sid": 876266172637315,
+					"parameters": {
+						"animation": "\"normal\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 594178719800462
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "cursor-is-over-object",
+					"objectClass": "Mouse",
+					"sid": 398146079908702,
+					"parameters": {
+						"object": "OBJETOlista1"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "OBJETOlista1",
+					"sid": 934774382319925,
+					"parameters": {
+						"animation": "\"hover\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 934491547018017
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "else",
+					"objectClass": "System",
+					"sid": 479754516684250
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "OBJETOlista1",
+					"sid": 611448954748875,
+					"parameters": {
+						"animation": "\"normal\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 230781868223637
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 233774619466910,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "OBJETOlista1"
+					}
+				}
+			],
+			"actions": [],
+			"sid": 156772326901878,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-boolean-instance-variable-set",
+							"objectClass": "OBJETOlista1",
+							"sid": 527985045164637,
+							"parameters": {
+								"instance-variable": "Aberto"
+							},
+							"isInverted": true
+						}
+					],
+					"actions": [
+						{
+							"id": "set-boolean-instvar",
+							"objectClass": "OBJETOlista1",
+							"sid": 864668039494907,
+							"parameters": {
+								"instance-variable": "Aberto",
+								"value": "true"
+							}
+						},
+						{
+							"id": "tween-two-properties",
+							"objectClass": "OBJETOlista1",
+							"sid": 789214754879125,
+							"behaviorType": "Interpolação",
+							"parameters": {
+								"tags": "\"\"",
+								"property": "position",
+								"end-x": "LayoutWidth/2",
+								"end-y": "LayoutHeight/2",
+								"time": "0.4",
+								"ease": "easeoutquad",
+								"destroy-on-complete": "no",
+								"loop": "no",
+								"ping-pong": "no",
+								"repeat-count": "1"
+							}
+						},
+						{
+							"id": "tween-two-properties",
+							"objectClass": "OBJETOlista1",
+							"sid": 242760819639146,
+							"behaviorType": "Interpolação",
+							"parameters": {
+								"tags": "\"\"",
+								"property": "scale",
+								"end-x": "1.5",
+								"end-y": "1.5",
+								"time": "0.4",
+								"ease": "easeoutquart",
+								"destroy-on-complete": "no",
+								"loop": "no",
+								"ping-pong": "no",
+								"repeat-count": "1"
+							}
+						},
+						{
+							"id": "move-to-top",
+							"objectClass": "OBJETOlista1",
+							"sid": 397030978805678
+						}
+					],
+					"sid": 989844922665591
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-boolean-instance-variable-set",
+							"objectClass": "OBJETOlista1",
+							"sid": 610577880022513,
+							"parameters": {
+								"instance-variable": "Aberto"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-boolean-instvar",
+							"objectClass": "OBJETOlista1",
+							"sid": 636040189419899,
+							"parameters": {
+								"instance-variable": "Aberto",
+								"value": "false"
+							}
+						},
+						{
+							"id": "tween-two-properties",
+							"objectClass": "OBJETOlista1",
+							"sid": 984233212710915,
+							"behaviorType": "Interpolação",
+							"parameters": {
+								"tags": "\"\"",
+								"property": "position",
+								"end-x": "OBJETOlista1.OriginalX",
+								"end-y": "OBJETOlista1.OriginalY",
+								"time": "0.4",
+								"ease": "easeoutquad",
+								"destroy-on-complete": "no",
+								"loop": "no",
+								"ping-pong": "no",
+								"repeat-count": "1"
+							}
+						},
+						{
+							"id": "tween-two-properties",
+							"objectClass": "OBJETOlista1",
+							"sid": 445586640821094,
+							"behaviorType": "Interpolação",
+							"parameters": {
+								"tags": "\"\"",
+								"property": "size",
+								"end-x": "OBJETOlista1.OriginalWidth",
+								"end-y": "OBJETOlista1.OriginalHeight",
+								"time": "0.4",
+								"ease": "easeoutquart",
+								"destroy-on-complete": "no",
+								"loop": "no",
+								"ping-pong": "no",
+								"repeat-count": "1"
+							}
+						}
+					],
+					"sid": 124295681626922
+				}
+			]
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Teclado",
+					"sid": 699555194745169,
+					"parameters": {
+						"key": 69
+					}
+				},
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "JOGADOR",
+					"sid": 629031562718846,
+					"parameters": {
+						"object": "OBJETOprancheta"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-boolean-instvar",
+					"objectClass": "OBJETOprancheta",
+					"sid": 640284288288630,
+					"parameters": {
+						"instance-variable": "Aberto",
+						"value": "true"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "INPUTnome",
+					"sid": 346214009090263,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "BOTAOpronto",
+					"sid": 493931139350988,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-position",
+					"objectClass": "INPUTnome",
+					"sid": 299040955091846,
+					"parameters": {
+						"x": "LayoutWidth/2-(INPUTnome.Width/2)",
+						"y": "LayoutHeight/2-(INPUTnome.Height/2)"
+					}
+				},
+				{
+					"id": "set-position",
+					"objectClass": "BOTAOpronto",
+					"sid": 671459510383306,
+					"parameters": {
+						"x": "INPUTnome.BBoxMidX-(BOTAOpronto.Width/2)",
+						"y": "INPUTnome.BBoxBottom-(BOTAOpronto.Height/2)"
+					}
+				}
+			],
+			"sid": 583886312790381
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "BOTAOpronto",
+					"sid": 322413011599833
+				}
+			],
+			"actions": [
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 508546815440479,
+					"parameters": {
+						"variable": "usuario",
+						"value": "INPUTnome.Text"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "INPUTnome",
+					"sid": 566245694667743,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "BOTAOpronto",
+					"sid": 217176412723702,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				}
+			],
+			"sid": 274298633785544
+		}
+	],
+	"sid": 440003225587809
+}

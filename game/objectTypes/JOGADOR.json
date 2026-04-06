@@ -1,0 +1,239 @@
+{
+	"name": "JOGADOR",
+	"plugin-id": "Sprite",
+	"sid": 830555573960239,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [
+		{
+			"name": "movendo",
+			"type": "boolean",
+			"desc": "",
+			"show": true,
+			"sid": 299723338993238
+		}
+	],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Platform",
+			"name": "Platform",
+			"sid": 801961130989984
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 32,
+						"height": 60,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/png",
+						"imageSpriteId": 3207127,
+						"collisionPoly": {
+							"points": [
+								0.4375,
+								0,
+								0.5625,
+								0,
+								0.71875,
+								0.03333333333333333,
+								0.8125,
+								0.08333333333333333,
+								0.90625,
+								0.16666666666666666,
+								1,
+								0.5833333333333334,
+								1,
+								0.65,
+								0.90625,
+								1,
+								0.0625,
+								0.9833333333333333,
+								0,
+								0.65,
+								0,
+								0.5833333333333334,
+								0.09375,
+								0.16666666666666666,
+								0.1875,
+								0.08333333333333333,
+								0.28125,
+								0.03333333333333333
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					},
+					{
+						"width": 32,
+						"height": 60,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/png",
+						"imageSpriteId": 4085446,
+						"collisionPoly": {
+							"points": [
+								0.4375,
+								0.016666666666666666,
+								0.5625,
+								0.016666666666666666,
+								0.71875,
+								0.05,
+								0.8125,
+								0.1,
+								0.90625,
+								0.18333333333333332,
+								1,
+								0.6166666666666667,
+								1,
+								0.6833333333333333,
+								0.90625,
+								1,
+								0.0625,
+								0.9833333333333333,
+								0,
+								0.6833333333333333,
+								0,
+								0.6166666666666667,
+								0.09375,
+								0.18333333333333332,
+								0.1875,
+								0.1,
+								0.28125,
+								0.05
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 984355037645076,
+				"name": "normal",
+				"isLooping": true,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 1.6
+			},
+			{
+				"frames": [
+					{
+						"width": 32,
+						"height": 56,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/png",
+						"imageSpriteId": 6097366,
+						"collisionPoly": {
+							"points": [
+								0.40625,
+								0,
+								0.65625,
+								0,
+								0.75,
+								0.017857142857142856,
+								0.8125,
+								0.03571428571428571,
+								0.90625,
+								0.08928571428571429,
+								0.9375,
+								0.14285714285714285,
+								1,
+								0.8928571428571429,
+								0.90625,
+								0.9464285714285714,
+								0.78125,
+								0.9821428571428571,
+								0.15625,
+								1,
+								0.09375,
+								0.9821428571428571,
+								0,
+								0.9285714285714286,
+								0,
+								0.875,
+								0.125,
+								0.16071428571428573,
+								0.1875,
+								0.08928571428571429,
+								0.3125,
+								0.017857142857142856
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					},
+					{
+						"width": 32,
+						"height": 56,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/png",
+						"imageSpriteId": 7138373,
+						"collisionPoly": {
+							"points": [
+								0.375,
+								0,
+								0.625,
+								0,
+								0.71875,
+								0.017857142857142856,
+								0.78125,
+								0.03571428571428571,
+								0.875,
+								0.08928571428571429,
+								0.90625,
+								0.14285714285714285,
+								0.9375,
+								0.9107142857142857,
+								0.8125,
+								0.9821428571428571,
+								0.75,
+								1,
+								0.21875,
+								1,
+								0.0625,
+								0.9285714285714286,
+								0.09375,
+								0.16071428571428573,
+								0.15625,
+								0.08928571428571429,
+								0.28125,
+								0.017857142857142856
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 693789679296916,
+				"name": "andar",
+				"isLooping": true,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 2
+			}
+		],
+		"subfolders": []
+	}
+}
