@@ -96,12 +96,35 @@
 					}
 				},
 				{
-					"id": "set-text",
-					"objectClass": "Text",
-					"sid": 143169034570397,
+					"id": "set-position",
+					"objectClass": "CENARIOsala1",
+					"sid": 930065873284688,
 					"parameters": {
-						"text": "OBJETOlista1.Aberto"
+						"x": "640",
+						"y": "320"
 					}
+				},
+				{
+					"id": "set-position",
+					"objectClass": "CENARIOsala2",
+					"sid": 447942143324539,
+					"parameters": {
+						"x": "CENARIOsala1.BBoxRight+640",
+						"y": "CENARIOsala1.BBoxMidY"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "JOGADOR",
+					"sid": 202703255047831,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "move-to-top",
+					"objectClass": "JOGADOR",
+					"sid": 765331414074093
 				}
 			],
 			"sid": 412856706367635
@@ -241,11 +264,68 @@
 						{
 							"id": "is-boolean-instance-variable-set",
 							"objectClass": "OBJETOlista1",
-							"sid": 527985045164637,
+							"sid": 195518087822925,
 							"parameters": {
 								"instance-variable": "Aberto"
-							},
-							"isInverted": true
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-boolean-instvar",
+							"objectClass": "OBJETOlista1",
+							"sid": 213373199146548,
+							"parameters": {
+								"instance-variable": "Aberto",
+								"value": "false"
+							}
+						},
+						{
+							"id": "tween-two-properties",
+							"objectClass": "OBJETOlista1",
+							"sid": 293161257988881,
+							"behaviorType": "Interpolação",
+							"parameters": {
+								"tags": "\"\"",
+								"property": "position",
+								"end-x": "OBJETOlista1.OriginalX",
+								"end-y": "OBJETOlista1.OriginalY",
+								"time": "0.4",
+								"ease": "easeoutquad",
+								"destroy-on-complete": "no",
+								"loop": "no",
+								"ping-pong": "no",
+								"repeat-count": "1"
+							}
+						},
+						{
+							"id": "tween-two-properties",
+							"objectClass": "OBJETOlista1",
+							"sid": 797299771469211,
+							"behaviorType": "Interpolação",
+							"parameters": {
+								"tags": "\"\"",
+								"property": "size",
+								"end-x": "OBJETOlista1.OriginalWidth",
+								"end-y": "OBJETOlista1.OriginalHeight",
+								"time": "0.4",
+								"ease": "easeoutquart",
+								"destroy-on-complete": "no",
+								"loop": "no",
+								"ping-pong": "no",
+								"repeat-count": "1"
+							}
+						}
+					],
+					"sid": 994636459788769
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "else",
+							"objectClass": "System",
+							"sid": 394421221003365
 						}
 					],
 					"actions": [
@@ -259,15 +339,20 @@
 							}
 						},
 						{
+							"id": "move-to-top",
+							"objectClass": "OBJETOlista1",
+							"sid": 648746844318898
+						},
+						{
 							"id": "tween-two-properties",
 							"objectClass": "OBJETOlista1",
-							"sid": 789214754879125,
+							"sid": 952935860951945,
 							"behaviorType": "Interpolação",
 							"parameters": {
 								"tags": "\"\"",
 								"property": "position",
-								"end-x": "LayoutWidth/2",
-								"end-y": "LayoutHeight/2",
+								"end-x": "CENARIOsala1.Width/2",
+								"end-y": "CENARIOsala1.Height/2",
 								"time": "0.4",
 								"ease": "easeoutquad",
 								"destroy-on-complete": "no",
@@ -293,75 +378,9 @@
 								"ping-pong": "no",
 								"repeat-count": "1"
 							}
-						},
-						{
-							"id": "move-to-top",
-							"objectClass": "OBJETOlista1",
-							"sid": 397030978805678
 						}
 					],
 					"sid": 989844922665591
-				},
-				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "is-boolean-instance-variable-set",
-							"objectClass": "OBJETOlista1",
-							"sid": 610577880022513,
-							"parameters": {
-								"instance-variable": "Aberto"
-							}
-						}
-					],
-					"actions": [
-						{
-							"id": "set-boolean-instvar",
-							"objectClass": "OBJETOlista1",
-							"sid": 636040189419899,
-							"parameters": {
-								"instance-variable": "Aberto",
-								"value": "false"
-							}
-						},
-						{
-							"id": "tween-two-properties",
-							"objectClass": "OBJETOlista1",
-							"sid": 984233212710915,
-							"behaviorType": "Interpolação",
-							"parameters": {
-								"tags": "\"\"",
-								"property": "position",
-								"end-x": "OBJETOlista1.OriginalX",
-								"end-y": "OBJETOlista1.OriginalY",
-								"time": "0.4",
-								"ease": "easeoutquad",
-								"destroy-on-complete": "no",
-								"loop": "no",
-								"ping-pong": "no",
-								"repeat-count": "1"
-							}
-						},
-						{
-							"id": "tween-two-properties",
-							"objectClass": "OBJETOlista1",
-							"sid": 445586640821094,
-							"behaviorType": "Interpolação",
-							"parameters": {
-								"tags": "\"\"",
-								"property": "size",
-								"end-x": "OBJETOlista1.OriginalWidth",
-								"end-y": "OBJETOlista1.OriginalHeight",
-								"time": "0.4",
-								"ease": "easeoutquart",
-								"destroy-on-complete": "no",
-								"loop": "no",
-								"ping-pong": "no",
-								"repeat-count": "1"
-							}
-						}
-					],
-					"sid": 124295681626922
 				}
 			]
 		},
@@ -414,10 +433,10 @@
 				{
 					"id": "set-position",
 					"objectClass": "INPUTnome",
-					"sid": 299040955091846,
+					"sid": 527289729019899,
 					"parameters": {
-						"x": "LayoutWidth/2-(INPUTnome.Width/2)",
-						"y": "LayoutHeight/2-(INPUTnome.Height/2)"
+						"x": "CENARIOsala1.Width/2-(INPUTnome.Width/2)",
+						"y": "CENARIOsala1.Height/2-(INPUTnome.Height/2)"
 					}
 				},
 				{
@@ -465,6 +484,15 @@
 					"sid": 217176412723702,
 					"parameters": {
 						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-boolean-instvar",
+					"objectClass": "OBJETOprancheta",
+					"sid": 494754661528888,
+					"parameters": {
+						"instance-variable": "Aberto",
+						"value": "false"
 					}
 				}
 			],

@@ -268,7 +268,7 @@
 						"OriginalY": 264,
 						"OriginalWidth": 98,
 						"OriginalHeight": 130,
-						"Aberto": false
+						"Aberto": true
 					},
 					"behaviors": {
 						"Interpolação": {
@@ -329,9 +329,9 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 599,
+						"x": 1289,
 						"y": 598,
-						"width": 1388,
+						"width": 2768,
 						"height": 82,
 						"originX": 0.5,
 						"originY": 0.5,
@@ -340,6 +340,98 @@
 							1,
 							1,
 							0
+						],
+						"z": 0,
+						"angle": 0
+					}
+				},
+				{
+					"type": "wall",
+					"properties": {
+						"initially-visible": true,
+						"origin": "top-left",
+						"wrap-horizontal": "repeat",
+						"wrap-vertical": "repeat",
+						"image-offset-x": 0,
+						"image-offset-y": 0,
+						"image-scale-x": 1,
+						"image-scale-y": 1,
+						"image-angle": 0,
+						"enable-tile-randomization": false,
+						"x-random": 1,
+						"y-random": 1,
+						"angle-random": 1,
+						"blend-margin-x": 0.1,
+						"blend-margin-y": 0.1
+					},
+					"uid": 24,
+					"sid": 550327306116683,
+					"tags": "",
+					"instanceVariables": {},
+					"behaviors": {
+						"Sólido": {
+							"properties": {
+								"enabled": false,
+								"use-instance-tags": true,
+								"tags": ""
+							}
+						}
+					},
+					"instanceFolderItem": {
+						"sid": 550327306116683,
+						"expanded": true
+					},
+					"showing": true,
+					"locked": false,
+					"world": {
+						"x": 1263.0655716709393,
+						"y": -55.13741826998137,
+						"width": 175.65537991974202,
+						"height": 715,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							0
+						],
+						"z": 0,
+						"angle": 0
+					}
+				},
+				{
+					"type": "CENARIOsala2",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 15,
+					"sid": 653493317172110,
+					"tags": "",
+					"instanceVariables": {},
+					"behaviors": {},
+					"instanceFolderItem": {
+						"sid": 653493317172110,
+						"expanded": true
+					},
+					"showing": true,
+					"locked": false,
+					"world": {
+						"x": 1932,
+						"y": 326,
+						"width": 1298.585341786591,
+						"height": 641.7168470050416,
+						"originX": 0.5034340659340659,
+						"originY": 0.5097222222222222,
+						"color": [
+							1,
+							1,
+							1,
+							1
 						],
 						"z": 0,
 						"angle": 0
@@ -498,8 +590,8 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 575,
-						"y": 23,
+						"x": 332,
+						"y": 29,
 						"width": 165,
 						"height": 87,
 						"originX": 0,
@@ -515,32 +607,48 @@
 					}
 				},
 				{
-					"type": "Sprite",
+					"type": "Text2",
 					"properties": {
+						"text": "Text",
+						"enable-bbcode": true,
+						"font": "Arial",
+						"size": 44,
+						"line-height": 0,
+						"bold": true,
+						"italic": false,
+						"color": [
+							1,
+							0,
+							0,
+							1
+						],
+						"horizontal-alignment": "left",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"text-direction": "ltr",
+						"icon-set": -1,
 						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
+						"origin": "top-left",
+						"read-aloud": false
 					},
-					"uid": 15,
-					"sid": 653493317172110,
+					"uid": 25,
+					"sid": 110400874093931,
 					"tags": "",
 					"instanceVariables": {},
 					"behaviors": {},
 					"instanceFolderItem": {
-						"sid": 653493317172110,
+						"sid": 110400874093931,
 						"expanded": true
 					},
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 1926,
-						"y": 319,
-						"width": 1297.694068387973,
-						"height": 641.7168470050416,
-						"originX": 0.5,
-						"originY": 0.5,
+						"x": 509,
+						"y": 33,
+						"width": 165,
+						"height": 87,
+						"originX": 0,
+						"originY": 0,
 						"color": [
 							1,
 							1,

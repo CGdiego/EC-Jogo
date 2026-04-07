@@ -21,15 +21,6 @@
 					"parameters": {
 						"state": "mirrored"
 					}
-				},
-				{
-					"id": "set-boolean-instvar",
-					"objectClass": "JOGADOR",
-					"sid": 786462546863617,
-					"parameters": {
-						"instance-variable": "movendo",
-						"value": "true"
-					}
 				}
 			],
 			"sid": 280462860873568
@@ -48,15 +39,6 @@
 			],
 			"actions": [
 				{
-					"id": "set-boolean-instvar",
-					"objectClass": "JOGADOR",
-					"sid": 765589563890206,
-					"parameters": {
-						"instance-variable": "movendo",
-						"value": "true"
-					}
-				},
-				{
 					"id": "set-mirrored",
 					"objectClass": "JOGADOR",
 					"sid": 330573823451271,
@@ -71,12 +53,10 @@
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "is-boolean-instance-variable-set",
+					"id": "on-moved",
 					"objectClass": "JOGADOR",
-					"sid": 588739926731185,
-					"parameters": {
-						"instance-variable": "movendo"
-					}
+					"sid": 657276672582836,
+					"behaviorType": "Platform"
 				}
 			],
 			"actions": [
@@ -96,23 +76,24 @@
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "else",
-					"objectClass": "System",
-					"sid": 824528670419079
+					"id": "on-stopped",
+					"objectClass": "JOGADOR",
+					"sid": 141630927282914,
+					"behaviorType": "Platform"
 				}
 			],
 			"actions": [
 				{
 					"id": "set-animation",
 					"objectClass": "JOGADOR",
-					"sid": 198600593009195,
+					"sid": 629190854902658,
 					"parameters": {
 						"animation": "\"normal\"",
 						"from": "beginning"
 					}
 				}
 			],
-			"sid": 331456628879357
+			"sid": 141343810241985
 		},
 		{
 			"eventType": "block",
@@ -123,17 +104,7 @@
 					"sid": 107364195147421
 				}
 			],
-			"actions": [
-				{
-					"id": "set-boolean-instvar",
-					"objectClass": "JOGADOR",
-					"sid": 767055063379187,
-					"parameters": {
-						"instance-variable": "movendo",
-						"value": "false"
-					}
-				}
-			],
+			"actions": [],
 			"sid": 326714594842307
 		},
 		{
@@ -191,6 +162,74 @@
 				}
 			],
 			"sid": 325265629531646
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-x",
+					"objectClass": "JOGADOR",
+					"sid": 635287063159088,
+					"parameters": {
+						"comparison": 5,
+						"x-co-ordinate": "0"
+					}
+				},
+				{
+					"id": "compare-x",
+					"objectClass": "JOGADOR",
+					"sid": 230406672365553,
+					"parameters": {
+						"comparison": 3,
+						"x-co-ordinate": "1280"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "scroll-to-object",
+					"objectClass": "System",
+					"sid": 947181781740124,
+					"parameters": {
+						"object": "CENARIOsala1"
+					}
+				}
+			],
+			"sid": 621651638984903
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-x",
+					"objectClass": "JOGADOR",
+					"sid": 985889901390245,
+					"parameters": {
+						"comparison": 5,
+						"x-co-ordinate": "1280"
+					}
+				},
+				{
+					"id": "compare-x",
+					"objectClass": "JOGADOR",
+					"sid": 597616324654903,
+					"parameters": {
+						"comparison": 3,
+						"x-co-ordinate": "2560"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "scroll-to-object",
+					"objectClass": "System",
+					"sid": 547732593496227,
+					"parameters": {
+						"object": "CENARIOsala2"
+					}
+				}
+			],
+			"sid": 820619909621631
 		}
 	],
 	"sid": 252353394373787
