@@ -147,6 +147,32 @@
 				}
 			],
 			"sid": 338530666734293
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 829440344106917,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "ControlesBack"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 117785397847588,
+					"parameters": {
+						"layout": "Menu"
+					}
+				}
+			],
+			"sid": 454139700777040
 		}
 	],
 	"sid": 286635981424750

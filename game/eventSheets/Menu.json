@@ -97,6 +97,155 @@
 				}
 			],
 			"sid": 412142534470274
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "cursor-is-over-object",
+					"objectClass": "Mouse",
+					"sid": 587281016138598,
+					"parameters": {
+						"object": "TxtControles"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-font-color",
+					"objectClass": "TxtControles",
+					"sid": 517973113472236,
+					"parameters": {
+						"color": "rgbEx(255, 255, 0)"
+					}
+				},
+				{
+					"id": "set-font-size",
+					"objectClass": "TxtControles",
+					"sid": 648058305262844,
+					"parameters": {
+						"size-pt": "50"
+					}
+				},
+				{
+					"id": "set-width",
+					"objectClass": "TxtControles",
+					"sid": 368180996165279,
+					"parameters": {
+						"width": "Self.TextWidth"
+					}
+				},
+				{
+					"id": "set-height",
+					"objectClass": "TxtControles",
+					"sid": 817141886146669,
+					"parameters": {
+						"height": "Self.TextHeight"
+					}
+				}
+			],
+			"sid": 423848710859797
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "cursor-is-over-object",
+					"objectClass": "Mouse",
+					"sid": 197711894185335,
+					"parameters": {
+						"object": "TxtControles"
+					},
+					"isInverted": true
+				}
+			],
+			"actions": [
+				{
+					"id": "set-font-color",
+					"objectClass": "TxtControles",
+					"sid": 613473589005776,
+					"parameters": {
+						"color": "rgbEx(255, 255, 255)"
+					}
+				},
+				{
+					"id": "set-font-size",
+					"objectClass": "TxtControles",
+					"sid": 941987964121001,
+					"parameters": {
+						"size-pt": "44"
+					}
+				},
+				{
+					"id": "set-width",
+					"objectClass": "TxtControles",
+					"sid": 492461999168968,
+					"parameters": {
+						"width": "Self.TextWidth"
+					}
+				},
+				{
+					"id": "set-height",
+					"objectClass": "TxtControles",
+					"sid": 561972766446674,
+					"parameters": {
+						"height": "Self.TextHeight"
+					}
+				}
+			],
+			"sid": 499873188397217
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 242614218285507,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "TxtJogar"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 400380218320838,
+					"parameters": {
+						"layout": "Gameplay"
+					}
+				}
+			],
+			"sid": 221962249691402
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 547652221872402,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "TxtControles"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 507400152687822,
+					"parameters": {
+						"layout": "Controles"
+					}
+				}
+			],
+			"sid": 612775811979471
 		}
 	],
 	"sid": 611796010222163

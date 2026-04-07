@@ -100,7 +100,9 @@
 			"BGControles",
 			"BlueDKey",
 			"BlueAKey",
-			"ControlesPersonagem"
+			"ControlesPersonagem",
+			"TxtControles",
+			"ControlesBack"
 		],
 		"subfolders": []
 	},

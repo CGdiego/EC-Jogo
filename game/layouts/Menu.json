@@ -114,7 +114,7 @@
 					}
 				},
 				{
-					"type": "TxtJogar",
+					"type": "TxtControles",
 					"properties": {
 						"text": "Controles",
 						"enable-bbcode": true,
@@ -138,8 +138,8 @@
 						"origin": "top-left",
 						"read-aloud": false
 					},
-					"uid": 18,
-					"sid": 623924108277720,
+					"uid": 23,
+					"sid": 918221277205681,
 					"tags": "",
 					"instanceVariables": {},
 					"behaviors": {},
@@ -161,7 +161,7 @@
 						}
 					},
 					"instanceFolderItem": {
-						"sid": 623924108277720,
+						"sid": 918221277205681,
 						"expanded": true
 					},
 					"showing": true,
