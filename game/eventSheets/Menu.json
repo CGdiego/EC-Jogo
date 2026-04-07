@@ -1,0 +1,103 @@
+{
+	"name": "Menu",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "cursor-is-over-object",
+					"objectClass": "Mouse",
+					"sid": 516487551901548,
+					"parameters": {
+						"object": "TxtJogar"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-font-color",
+					"objectClass": "TxtJogar",
+					"sid": 654107378198644,
+					"parameters": {
+						"color": "rgbEx(255, 255, 0)"
+					}
+				},
+				{
+					"id": "set-font-size",
+					"objectClass": "TxtJogar",
+					"sid": 982905062536021,
+					"parameters": {
+						"size-pt": "50"
+					}
+				},
+				{
+					"id": "set-width",
+					"objectClass": "TxtJogar",
+					"sid": 791420551436020,
+					"parameters": {
+						"width": "Self.TextWidth"
+					}
+				},
+				{
+					"id": "set-height",
+					"objectClass": "TxtJogar",
+					"sid": 702930372220685,
+					"parameters": {
+						"height": "Self.TextHeight"
+					}
+				}
+			],
+			"sid": 316353036727856
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "cursor-is-over-object",
+					"objectClass": "Mouse",
+					"sid": 196499291091673,
+					"parameters": {
+						"object": "TxtJogar"
+					},
+					"isInverted": true
+				}
+			],
+			"actions": [
+				{
+					"id": "set-font-color",
+					"objectClass": "TxtJogar",
+					"sid": 586843197326504,
+					"parameters": {
+						"color": "rgbEx(255, 255, 255)"
+					}
+				},
+				{
+					"id": "set-font-size",
+					"objectClass": "TxtJogar",
+					"sid": 651679299168488,
+					"parameters": {
+						"size-pt": "44"
+					}
+				},
+				{
+					"id": "set-width",
+					"objectClass": "TxtJogar",
+					"sid": 315397561050943,
+					"parameters": {
+						"width": "Self.TextWidth"
+					}
+				},
+				{
+					"id": "set-height",
+					"objectClass": "TxtJogar",
+					"sid": 256388469866554,
+					"parameters": {
+						"height": "Self.TextHeight"
+					}
+				}
+			],
+			"sid": 412142534470274
+		}
+	],
+	"sid": 611796010222163
+}

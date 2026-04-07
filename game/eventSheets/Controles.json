@@ -1,0 +1,153 @@
+{
+	"name": "Controles",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "key-is-down",
+					"objectClass": "Teclado",
+					"sid": 506636496084330,
+					"parameters": {
+						"key": 68
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "BlueDKey",
+					"sid": 381535495308099,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-animation",
+					"objectClass": "ControlesPersonagem",
+					"sid": 376169060689889,
+					"parameters": {
+						"animation": "\"Direita\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 450766269687671
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-released",
+					"objectClass": "Teclado",
+					"sid": 931824472651529,
+					"parameters": {
+						"key": 68
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "BlueDKey",
+					"sid": 504773136092383,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-animation",
+					"objectClass": "ControlesPersonagem",
+					"sid": 914154123523795,
+					"parameters": {
+						"animation": "\"Parado\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 795466453292995
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "key-is-down",
+					"objectClass": "Teclado",
+					"sid": 514117631833756,
+					"parameters": {
+						"key": 65
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "BlueAKey",
+					"sid": 843560634383133,
+					"parameters": {
+						"visibility": "visible"
+					}
+				}
+			],
+			"sid": 903071645338772
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-released",
+					"objectClass": "Teclado",
+					"sid": 727336427391492,
+					"parameters": {
+						"key": 65
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "BlueAKey",
+					"sid": 107548004551932,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				}
+			],
+			"sid": 565888676502620
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "key-is-down",
+					"objectClass": "Teclado",
+					"sid": 420359570524739,
+					"parameters": {
+						"key": 65
+					}
+				},
+				{
+					"id": "key-is-down",
+					"objectClass": "Teclado",
+					"sid": 128719896878644,
+					"parameters": {
+						"key": 68
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "ControlesPersonagem",
+					"sid": 335308617626606,
+					"parameters": {
+						"animation": "\"Parado\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 338530666734293
+		}
+	],
+	"sid": 286635981424750
+}

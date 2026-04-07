@@ -1,0 +1,10 @@
+{
+	"name": "TextMenu",
+	"plugin-id": "Text",
+	"sid": 338051549523943,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": []
+}

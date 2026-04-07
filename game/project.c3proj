@@ -68,6 +68,14 @@
 			"name": "Solid",
 			"author": "Scirra",
 			"bundled": false
+		},
+		{
+			"type": "effect",
+			"id": "skymen_BetterOutline",
+			"name": "Better Outline",
+			"author": "skymen",
+			"bundled": false,
+			"version": "2.1.0.1"
 		}
 	],
 	"uniqueId": "uft674qhi6z",
@@ -86,7 +94,13 @@
 			"INPUTnome",
 			"BOTAOpronto",
 			"Text",
-			"Sprite"
+			"Sprite",
+			"FundoMenu",
+			"TxtJogar",
+			"BGControles",
+			"BlueDKey",
+			"BlueAKey",
+			"ControlesPersonagem"
 		],
 		"subfolders": []
 	},
@@ -99,14 +113,18 @@
 	},
 	"layouts": {
 		"items": [
-			"Gameplay"
+			"Gameplay",
+			"Menu",
+			"Controles"
 		],
 		"subfolders": []
 	},
 	"eventSheets": {
 		"items": [
 			"Folha de eventos 1",
-			"Protagonista"
+			"Protagonista",
+			"Menu",
+			"Controles"
 		],
 		"subfolders": []
 	},
