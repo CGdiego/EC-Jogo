@@ -7,9 +7,9 @@
 				{
 					"id": "key-is-down",
 					"objectClass": "Teclado",
-					"sid": 506636496084330,
+					"sid": 817945407612386,
 					"parameters": {
-						"key": 68
+						"key": 39
 					}
 				}
 			],
@@ -25,9 +25,9 @@
 				{
 					"id": "set-animation",
 					"objectClass": "ControlesPersonagem",
-					"sid": 376169060689889,
+					"sid": 387195555933781,
 					"parameters": {
-						"animation": "\"Direita\"",
+						"animation": "\"direita\"",
 						"from": "beginning"
 					}
 				}
@@ -40,9 +40,9 @@
 				{
 					"id": "on-key-released",
 					"objectClass": "Teclado",
-					"sid": 931824472651529,
+					"sid": 324638769164060,
 					"parameters": {
-						"key": 68
+						"key": 39
 					}
 				}
 			],
@@ -58,9 +58,9 @@
 				{
 					"id": "set-animation",
 					"objectClass": "ControlesPersonagem",
-					"sid": 914154123523795,
+					"sid": 280532064748082,
 					"parameters": {
-						"animation": "\"Parado\"",
+						"animation": "\"parado\"",
 						"from": "beginning"
 					}
 				}
@@ -73,9 +73,9 @@
 				{
 					"id": "key-is-down",
 					"objectClass": "Teclado",
-					"sid": 514117631833756,
+					"sid": 952634730969136,
 					"parameters": {
-						"key": 65
+						"key": 37
 					}
 				}
 			],
@@ -87,6 +87,23 @@
 					"parameters": {
 						"visibility": "visible"
 					}
+				},
+				{
+					"id": "set-mirrored",
+					"objectClass": "ControlesPersonagem",
+					"sid": 798945941732773,
+					"parameters": {
+						"state": "mirrored"
+					}
+				},
+				{
+					"id": "set-animation",
+					"objectClass": "ControlesPersonagem",
+					"sid": 927255881948209,
+					"parameters": {
+						"animation": "\"direita\"",
+						"from": "beginning"
+					}
 				}
 			],
 			"sid": 903071645338772
@@ -97,9 +114,9 @@
 				{
 					"id": "on-key-released",
 					"objectClass": "Teclado",
-					"sid": 727336427391492,
+					"sid": 495049803244310,
 					"parameters": {
-						"key": 65
+						"key": 37
 					}
 				}
 			],
@@ -111,42 +128,26 @@
 					"parameters": {
 						"visibility": "invisible"
 					}
-				}
-			],
-			"sid": 565888676502620
-		},
-		{
-			"eventType": "block",
-			"conditions": [
+				},
 				{
-					"id": "key-is-down",
-					"objectClass": "Teclado",
-					"sid": 420359570524739,
+					"id": "set-mirrored",
+					"objectClass": "ControlesPersonagem",
+					"sid": 551519924058438,
 					"parameters": {
-						"key": 65
+						"state": "not-mirrored"
 					}
 				},
 				{
-					"id": "key-is-down",
-					"objectClass": "Teclado",
-					"sid": 128719896878644,
-					"parameters": {
-						"key": 68
-					}
-				}
-			],
-			"actions": [
-				{
 					"id": "set-animation",
 					"objectClass": "ControlesPersonagem",
-					"sid": 335308617626606,
+					"sid": 509699067267040,
 					"parameters": {
-						"animation": "\"Parado\"",
+						"animation": "\"parado\"",
 						"from": "beginning"
 					}
 				}
 			],
-			"sid": 338530666734293
+			"sid": 565888676502620
 		},
 		{
 			"eventType": "block",
