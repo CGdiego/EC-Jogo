@@ -49,13 +49,6 @@
 			"bundled": false
 		},
 		{
-			"type": "plugin",
-			"id": "TiledBg",
-			"name": "Plano de Fundo em Blocos",
-			"author": "Scirra",
-			"bundled": false
-		},
-		{
 			"type": "behavior",
 			"id": "Platform",
 			"name": "Plataforma",
@@ -100,7 +93,6 @@
 			"REFchao",
 			"INPUTnome",
 			"BOTAOpronto",
-			"Text",
 			"CENARIOsala2",
 			"FundoMenu",
 			"TxtJogar",
@@ -110,8 +102,18 @@
 			"ControlesPersonagem",
 			"TxtControles",
 			"ControlesBack",
-			"wall",
-			"Text2"
+			"OBJETOcadeira",
+			"OBJETOlocker",
+			"OBJETOcomputador",
+			"CENARIOsala3",
+			"sairLab",
+			"OBJETOaguaOxigenada",
+			"Sprite",
+			"SetaVoltar",
+			"stoneWallFrame",
+			"TEXTOaguaOxigenada",
+			"OBJETOarmarioVidro",
+			"OBJETOtubosTeste"
 		],
 		"subfolders": []
 	},
@@ -126,16 +128,18 @@
 		"items": [
 			"Gameplay",
 			"Menu",
-			"Controles"
+			"Controles",
+			"Lab"
 		],
 		"subfolders": []
 	},
 	"eventSheets": {
 		"items": [
-			"Folha de eventos 1",
+			"EntradaBunkers",
 			"Protagonista",
 			"Menu",
-			"Controles"
+			"Controles",
+			"LabEventos"
 		],
 		"subfolders": []
 	},

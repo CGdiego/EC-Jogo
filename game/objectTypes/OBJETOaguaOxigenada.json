@@ -1,0 +1,91 @@
+{
+	"name": "OBJETOaguaOxigenada",
+	"plugin-id": "Sprite",
+	"sid": 337736635544548,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [
+		{
+			"name": "usar",
+			"type": "boolean",
+			"desc": "",
+			"show": true,
+			"sid": 726004714899388
+		}
+	],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 76,
+						"height": 133,
+						"originX": 0.4868421052631579,
+						"originY": 0.5263157894736842,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/png",
+						"imageSpriteId": 5428916,
+						"collisionPoly": {
+							"points": [
+								0.47368421052631576,
+								0.022556390977443608,
+								1,
+								0.06766917293233082,
+								1,
+								0.3684210526315789,
+								1,
+								0.9774436090225566,
+								0.6973684210526315,
+								0.9774436090225566,
+								0.05263157894736842,
+								0.9022556390977443,
+								0.06578947368421052,
+								0.3007518796992481
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 472722300772546,
+				"name": "normal",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			},
+			{
+				"frames": [
+					{
+						"width": 76,
+						"height": 133,
+						"originX": 0.4868421052631579,
+						"originY": 0.5263157894736842,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/png",
+						"imageSpriteId": 2620558,
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 636647201523407,
+				"name": "hover",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

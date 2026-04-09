@@ -1,0 +1,467 @@
+{
+	"name": "LabEventos",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "cursor-is-over-object",
+					"objectClass": "Mouse",
+					"sid": 653438793696119,
+					"parameters": {
+						"object": "OBJETOaguaOxigenada"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "OBJETOaguaOxigenada",
+					"sid": 276792866484044,
+					"parameters": {
+						"animation": "\"hover\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 712722776934796
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "else",
+					"objectClass": "System",
+					"sid": 115173624156771
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "OBJETOaguaOxigenada",
+					"sid": 836841649161857,
+					"parameters": {
+						"animation": "\"normal\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 717980768196226
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 581085878755242,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "ControlesBack"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 216826172915306,
+					"parameters": {
+						"layout": "Gameplay"
+					}
+				},
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 625898704303589,
+					"parameters": {
+						"variable": "LayoutAnterior",
+						"value": "\"Lab\""
+					}
+				}
+			],
+			"sid": 625649167657146
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 270987105360796,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "OBJETOaguaOxigenada"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-boolean-instvar",
+					"objectClass": "OBJETOaguaOxigenada",
+					"sid": 862496209598691,
+					"parameters": {
+						"instance-variable": "usar",
+						"value": "true"
+					}
+				}
+			],
+			"sid": 504879588836475
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-boolean-instance-variable-set",
+					"objectClass": "OBJETOaguaOxigenada",
+					"sid": 995278816210489,
+					"parameters": {
+						"instance-variable": "usar"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "TEXTOaguaOxigenada",
+					"sid": 696440899158671,
+					"parameters": {
+						"visibility": "visible"
+					}
+				}
+			],
+			"sid": 449034937139192,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-object-clicked",
+							"objectClass": "Mouse",
+							"sid": 956458644383087,
+							"parameters": {
+								"mouse-button": "left",
+								"click-type": "clicked",
+								"object-clicked": "OBJETOarmarioVidro"
+							}
+						},
+						{
+							"id": "is-boolean-instance-variable-set",
+							"objectClass": "OBJETOarmarioVidro",
+							"sid": 877769239196479,
+							"parameters": {
+								"instance-variable": "limpo"
+							},
+							"isInverted": true
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation",
+							"objectClass": "OBJETOarmarioVidro",
+							"sid": 287668819719120,
+							"parameters": {
+								"animation": "\"normal\"",
+								"from": "beginning"
+							}
+						},
+						{
+							"id": "set-boolean-instvar",
+							"objectClass": "OBJETOarmarioVidro",
+							"sid": 670532371140393,
+							"parameters": {
+								"instance-variable": "limpo",
+								"value": "true"
+							}
+						},
+						{
+							"id": "set-boolean-instvar",
+							"objectClass": "OBJETOaguaOxigenada",
+							"sid": 677454235820891,
+							"parameters": {
+								"instance-variable": "usar",
+								"value": "false"
+							}
+						}
+					],
+					"sid": 460958505370623
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-object-clicked",
+							"objectClass": "Mouse",
+							"sid": 800905632233455,
+							"parameters": {
+								"mouse-button": "left",
+								"click-type": "clicked",
+								"object-clicked": "OBJETOtubosTeste"
+							}
+						},
+						{
+							"id": "is-boolean-instance-variable-set",
+							"objectClass": "OBJETOtubosTeste",
+							"sid": 273971285463930,
+							"parameters": {
+								"instance-variable": "limpo"
+							},
+							"isInverted": true
+						}
+					],
+					"actions": [
+						{
+							"id": "set-boolean-instvar",
+							"objectClass": "OBJETOaguaOxigenada",
+							"sid": 717229364451063,
+							"parameters": {
+								"instance-variable": "usar",
+								"value": "false"
+							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "OBJETOtubosTeste",
+							"sid": 575187266224882,
+							"parameters": {
+								"animation": "\"normal\"",
+								"from": "beginning"
+							}
+						},
+						{
+							"id": "set-boolean-instvar",
+							"objectClass": "OBJETOtubosTeste",
+							"sid": 131226303870566,
+							"parameters": {
+								"instance-variable": "limpo",
+								"value": "true"
+							}
+						}
+					],
+					"sid": 950017689021670
+				}
+			]
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-boolean-instance-variable-set",
+					"objectClass": "OBJETOarmarioVidro",
+					"sid": 435379900710573,
+					"parameters": {
+						"instance-variable": "limpo"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "OBJETOarmarioVidro",
+					"sid": 825707080519894,
+					"parameters": {
+						"animation": "\"normal\"",
+						"from": "beginning"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "OBJETOtubosTeste",
+					"sid": 732980849561074,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "move-to-object",
+					"objectClass": "OBJETOtubosTeste",
+					"sid": 651056251604981,
+					"parameters": {
+						"where": "in-front",
+						"object": "OBJETOarmarioVidro"
+					}
+				}
+			],
+			"sid": 723061001829691
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-boolean-instance-variable-set",
+					"objectClass": "OBJETOaguaOxigenada",
+					"sid": 411367279689945,
+					"parameters": {
+						"instance-variable": "usar"
+					},
+					"isInverted": true
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "TEXTOaguaOxigenada",
+					"sid": 989514720196949,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				}
+			],
+			"sid": 443850046055515
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 399699884278160,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "OBJETOtubosTeste"
+					}
+				},
+				{
+					"id": "is-boolean-instance-variable-set",
+					"objectClass": "OBJETOtubosTeste",
+					"sid": 689221051805015,
+					"parameters": {
+						"instance-variable": "limpo"
+					}
+				}
+			],
+			"actions": [],
+			"sid": 884593677644589,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-boolean-instance-variable-set",
+							"objectClass": "OBJETOtubosTeste",
+							"sid": 312550560443005,
+							"parameters": {
+								"instance-variable": "aberto"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-boolean-instvar",
+							"objectClass": "OBJETOtubosTeste",
+							"sid": 601376790136451,
+							"parameters": {
+								"instance-variable": "aberto",
+								"value": "false"
+							}
+						},
+						{
+							"id": "tween-two-properties",
+							"objectClass": "OBJETOtubosTeste",
+							"sid": 999353913292345,
+							"behaviorType": "Interpolação",
+							"parameters": {
+								"tags": "\"\"",
+								"property": "position",
+								"end-x": "1187",
+								"end-y": "315",
+								"time": "0.4",
+								"ease": "easeoutquad",
+								"destroy-on-complete": "no",
+								"loop": "no",
+								"ping-pong": "no",
+								"repeat-count": "1"
+							}
+						},
+						{
+							"id": "tween-two-properties",
+							"objectClass": "OBJETOtubosTeste",
+							"sid": 133933275544532,
+							"behaviorType": "Interpolação",
+							"parameters": {
+								"tags": "\"\"",
+								"property": "size",
+								"end-x": "88",
+								"end-y": "76",
+								"time": "0.4",
+								"ease": "easeoutquart",
+								"destroy-on-complete": "no",
+								"loop": "no",
+								"ping-pong": "no",
+								"repeat-count": "1"
+							}
+						}
+					],
+					"sid": 757962682107089
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "else",
+							"objectClass": "System",
+							"sid": 296650514825599
+						}
+					],
+					"actions": [
+						{
+							"id": "set-boolean-instvar",
+							"objectClass": "OBJETOtubosTeste",
+							"sid": 795545851448699,
+							"parameters": {
+								"instance-variable": "aberto",
+								"value": "true"
+							}
+						},
+						{
+							"id": "move-to-top",
+							"objectClass": "OBJETOtubosTeste",
+							"sid": 576926540427537
+						},
+						{
+							"id": "tween-two-properties",
+							"objectClass": "OBJETOtubosTeste",
+							"sid": 255566513276530,
+							"behaviorType": "Interpolação",
+							"parameters": {
+								"tags": "\"\"",
+								"property": "position",
+								"end-x": "CENARIOsala3.Width/2",
+								"end-y": "CENARIOsala3.Height/2",
+								"time": "0.4",
+								"ease": "easeoutquad",
+								"destroy-on-complete": "no",
+								"loop": "no",
+								"ping-pong": "no",
+								"repeat-count": "1"
+							}
+						},
+						{
+							"id": "tween-two-properties",
+							"objectClass": "OBJETOtubosTeste",
+							"sid": 932162092901059,
+							"behaviorType": "Interpolação",
+							"parameters": {
+								"tags": "\"\"",
+								"property": "scale",
+								"end-x": "1.5",
+								"end-y": "1.5",
+								"time": "0.4",
+								"ease": "easeoutquart",
+								"destroy-on-complete": "no",
+								"loop": "no",
+								"ping-pong": "no",
+								"repeat-count": "1"
+							}
+						}
+					],
+					"sid": 415456743875713
+				}
+			]
+		}
+	],
+	"sid": 962130731962138
+}

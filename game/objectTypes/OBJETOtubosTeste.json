@@ -1,0 +1,110 @@
+{
+	"name": "OBJETOtubosTeste",
+	"plugin-id": "Sprite",
+	"sid": 292270051692021,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [
+		{
+			"name": "limpo",
+			"type": "boolean",
+			"desc": "",
+			"show": true,
+			"sid": 921585148381477
+		},
+		{
+			"name": "aberto",
+			"type": "boolean",
+			"desc": "",
+			"show": true,
+			"sid": 648242789942566
+		}
+	],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Tween",
+			"name": "Interpolação",
+			"sid": 472089921939948
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 229,
+						"height": 196,
+						"originX": 0.46943231441048033,
+						"originY": 0.4720812182741117,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/png",
+						"imageSpriteId": 4037494,
+						"collisionPoly": {
+							"points": [
+								0.7641921397379913,
+								0.015306122448979591,
+								1,
+								0.15306122448979592,
+								1,
+								0.6326530612244896,
+								1,
+								0.9744897959183674,
+								1,
+								1,
+								1,
+								1,
+								0.18777292576419213,
+								0.9897959183673469,
+								0.013100436681222677,
+								0.923469387755102,
+								0.026200873362445413,
+								0.34183673469387754,
+								0.2314410480349345,
+								0.030612244897959183
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 787712906004655,
+				"name": "normal",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			},
+			{
+				"frames": [
+					{
+						"width": 229,
+						"height": 197,
+						"originX": 0.46943231441048033,
+						"originY": 0.4720812182741117,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/png",
+						"imageSpriteId": 6475927,
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 106454544486092,
+				"name": "sangue",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

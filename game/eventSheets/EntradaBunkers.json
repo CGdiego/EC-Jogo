@@ -1,5 +1,5 @@
 {
-	"name": "Folha de eventos 1",
+	"name": "EntradaBunkers",
 	"events": [
 		{
 			"eventType": "variable",
@@ -12,6 +12,16 @@
 			"sid": 351241946439421
 		},
 		{
+			"eventType": "variable",
+			"name": "LayoutAnterior",
+			"type": "string",
+			"initialValue": "menu",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 770378196546775
+		},
+		{
 			"eventType": "include",
 			"includeSheet": "Protagonista"
 		},
@@ -22,6 +32,16 @@
 					"id": "on-start-of-layout",
 					"objectClass": "System",
 					"sid": 566207677085704
+				},
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 114194234254615,
+					"parameters": {
+						"variable": "LayoutAnterior",
+						"comparison": 0,
+						"value": "\"menu\""
+					}
 				}
 			],
 			"actions": [
@@ -105,15 +125,6 @@
 					}
 				},
 				{
-					"id": "set-position",
-					"objectClass": "CENARIOsala2",
-					"sid": 447942143324539,
-					"parameters": {
-						"x": "CENARIOsala1.BBoxRight+640",
-						"y": "CENARIOsala1.BBoxMidY"
-					}
-				},
-				{
 					"id": "set-visible",
 					"objectClass": "JOGADOR",
 					"sid": 202703255047831,
@@ -125,6 +136,20 @@
 					"id": "move-to-top",
 					"objectClass": "JOGADOR",
 					"sid": 765331414074093
+				},
+				{
+					"id": "set-position",
+					"objectClass": "JOGADOR",
+					"sid": 902381830355296,
+					"parameters": {
+						"x": "274",
+						"y": "418"
+					}
+				},
+				{
+					"id": "move-to-top",
+					"objectClass": "stoneWallFrame",
+					"sid": 229121272267629
 				}
 			],
 			"sid": 412856706367635
@@ -133,66 +158,111 @@
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "cursor-is-over-object",
-					"objectClass": "Mouse",
-					"sid": 496464814625644,
-					"parameters": {
-						"object": "OBJETOprancheta"
-					}
-				}
-			],
-			"actions": [],
-			"sid": 300932289680905,
-			"children": [
-				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "is-boolean-instance-variable-set",
-							"objectClass": "OBJETOprancheta",
-							"sid": 168779311682952,
-							"parameters": {
-								"instance-variable": "Aberto"
-							},
-							"isInverted": true
-						}
-					],
-					"actions": [
-						{
-							"id": "set-animation",
-							"objectClass": "OBJETOprancheta",
-							"sid": 872094053788499,
-							"parameters": {
-								"animation": "\"hover\"",
-								"from": "beginning"
-							}
-						}
-					],
-					"sid": 766340002135939
-				}
-			]
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "else",
+					"id": "on-start-of-layout",
 					"objectClass": "System",
-					"sid": 642152114333936
+					"sid": 200779219314121
+				},
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 271692762487014,
+					"parameters": {
+						"variable": "LayoutAnterior",
+						"comparison": 0,
+						"value": "\"Lab\""
+					}
 				}
 			],
 			"actions": [
 				{
-					"id": "set-animation",
-					"objectClass": "OBJETOprancheta",
-					"sid": 876266172637315,
+					"id": "scroll-to-object",
+					"objectClass": "System",
+					"sid": 208074334921324,
 					"parameters": {
-						"animation": "\"normal\"",
-						"from": "beginning"
+						"object": "CENARIOsala2"
 					}
+				},
+				{
+					"id": "set-position",
+					"objectClass": "JOGADOR",
+					"sid": 602433812443363,
+					"parameters": {
+						"x": "1725",
+						"y": "386"
+					}
+				},
+				{
+					"id": "set-position",
+					"objectClass": "OBJETOlista1",
+					"sid": 789172163195849,
+					"parameters": {
+						"x": "OBJETOlista1.OriginalX",
+						"y": "OBJETOlista1.OriginalY"
+					}
+				},
+				{
+					"id": "set-size",
+					"objectClass": "OBJETOlista1",
+					"sid": 252079281364787,
+					"parameters": {
+						"width": "OBJETOlista1.OriginalWidth",
+						"height": "OBJETOlista1.OriginalHeight"
+					}
+				},
+				{
+					"id": "set-boolean-instvar",
+					"objectClass": "OBJETOlista1",
+					"sid": 869781869357578,
+					"parameters": {
+						"instance-variable": "Aberto",
+						"value": "false"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "OBJETOlista1",
+					"sid": 895669273345509,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "move-to-top",
+					"objectClass": "JOGADOR",
+					"sid": 341244108189611
+				},
+				{
+					"id": "set-enabled",
+					"objectClass": "stoneWallFrame",
+					"sid": 986682566382766,
+					"behaviorType": "Sólido",
+					"parameters": {
+						"state": "disabled"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "OBJETOprancheta",
+					"sid": 937069700897238,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-collisions-enabled",
+					"objectClass": "OBJETOprancheta",
+					"sid": 779863702538268,
+					"parameters": {
+						"collisions": "disabled"
+					}
+				},
+				{
+					"id": "move-to-top",
+					"objectClass": "stoneWallFrame",
+					"sid": 430024905029202
 				}
 			],
-			"sid": 594178719800462
+			"sid": 791200089255399
 		},
 		{
 			"eventType": "block",
@@ -386,11 +456,17 @@
 		},
 		{
 			"eventType": "block",
+			"conditions": [],
+			"actions": [],
+			"sid": 450221721769353
+		},
+		{
+			"eventType": "block",
 			"conditions": [
 				{
 					"id": "on-key-pressed",
 					"objectClass": "Teclado",
-					"sid": 699555194745169,
+					"sid": 459262556222765,
 					"parameters": {
 						"key": 69
 					}
@@ -408,7 +484,7 @@
 				{
 					"id": "set-boolean-instvar",
 					"objectClass": "OBJETOprancheta",
-					"sid": 640284288288630,
+					"sid": 680110421781267,
 					"parameters": {
 						"instance-variable": "Aberto",
 						"value": "true"
@@ -417,7 +493,7 @@
 				{
 					"id": "set-visible",
 					"objectClass": "INPUTnome",
-					"sid": 346214009090263,
+					"sid": 749557789150075,
 					"parameters": {
 						"visibility": "visible"
 					}
@@ -425,7 +501,7 @@
 				{
 					"id": "set-visible",
 					"objectClass": "BOTAOpronto",
-					"sid": 493931139350988,
+					"sid": 752785004001076,
 					"parameters": {
 						"visibility": "visible"
 					}
@@ -433,7 +509,7 @@
 				{
 					"id": "set-position",
 					"objectClass": "INPUTnome",
-					"sid": 527289729019899,
+					"sid": 564958107864969,
 					"parameters": {
 						"x": "CENARIOsala1.Width/2-(INPUTnome.Width/2)",
 						"y": "CENARIOsala1.Height/2-(INPUTnome.Height/2)"
@@ -442,7 +518,7 @@
 				{
 					"id": "set-position",
 					"objectClass": "BOTAOpronto",
-					"sid": 671459510383306,
+					"sid": 675377123427396,
 					"parameters": {
 						"x": "INPUTnome.BBoxMidX-(BOTAOpronto.Width/2)",
 						"y": "INPUTnome.BBoxBottom-(BOTAOpronto.Height/2)"
@@ -494,9 +570,242 @@
 						"instance-variable": "Aberto",
 						"value": "false"
 					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "OBJETOprancheta",
+					"sid": 959337687977142,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-collisions-enabled",
+					"objectClass": "OBJETOprancheta",
+					"sid": 319016562293361,
+					"parameters": {
+						"collisions": "disabled"
+					}
+				},
+				{
+					"id": "set-enabled",
+					"objectClass": "stoneWallFrame",
+					"sid": 192228552264825,
+					"behaviorType": "Sólido",
+					"parameters": {
+						"state": "disabled"
+					}
 				}
 			],
 			"sid": 274298633785544
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Teclado",
+					"sid": 681438395460663,
+					"parameters": {
+						"key": 69
+					}
+				},
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "JOGADOR",
+					"sid": 184721406126191,
+					"parameters": {
+						"object": "OBJETOcadeira"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-boolean-instvar",
+					"objectClass": "OBJETOcadeira",
+					"sid": 475993172771441,
+					"parameters": {
+						"instance-variable": "Aberto",
+						"value": "true"
+					}
+				},
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 511593314512175,
+					"parameters": {
+						"layout": "Lab"
+					}
+				}
+			],
+			"sid": 485612831248174
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "cursor-is-over-object",
+					"objectClass": "Mouse",
+					"sid": 829929437949364,
+					"parameters": {
+						"object": "OBJETOcomputador"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "OBJETOcomputador",
+					"sid": 422423179670069,
+					"parameters": {
+						"animation": "\"hover\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 170553906809381
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "else",
+					"objectClass": "System",
+					"sid": 213313042997965
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "OBJETOcomputador",
+					"sid": 221860961404666,
+					"parameters": {
+						"animation": "\"normal\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 369180346022061
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 382774473058795,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "OBJETOcomputador"
+					}
+				}
+			],
+			"actions": [],
+			"sid": 528789410608512,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-boolean-instance-variable-set",
+							"objectClass": "OBJETOcomputador",
+							"sid": 895272402943266,
+							"parameters": {
+								"instance-variable": "Aberto"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-boolean-instvar",
+							"objectClass": "OBJETOcomputador",
+							"sid": 319475193940870,
+							"parameters": {
+								"instance-variable": "Aberto",
+								"value": "false"
+							}
+						}
+					],
+					"sid": 777158534783273
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "else",
+							"objectClass": "System",
+							"sid": 844803610734823
+						}
+					],
+					"actions": [
+						{
+							"id": "set-boolean-instvar",
+							"objectClass": "OBJETOcomputador",
+							"sid": 878975280627671,
+							"parameters": {
+								"instance-variable": "Aberto",
+								"value": "true"
+							}
+						}
+					],
+					"sid": 349312164713033
+				}
+			]
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "JOGADOR",
+					"sid": 415886533623617,
+					"parameters": {
+						"object": "OBJETOprancheta"
+					}
+				},
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "JOGADOR",
+					"sid": 685245941211570,
+					"parameters": {
+						"object": "OBJETOcadeira"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "Sprite",
+					"sid": 263335646943357,
+					"parameters": {
+						"visibility": "visible"
+					}
+				}
+			],
+			"sid": 543641674782442,
+			"isOrBlock": true
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "else",
+					"objectClass": "System",
+					"sid": 815141336424471
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "Sprite",
+					"sid": 233632969758073,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				}
+			],
+			"sid": 212504257879548
 		}
 	],
 	"sid": 440003225587809

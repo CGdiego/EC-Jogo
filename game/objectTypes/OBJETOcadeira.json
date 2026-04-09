@@ -1,0 +1,93 @@
+{
+	"name": "OBJETOcadeira",
+	"plugin-id": "Sprite",
+	"sid": 329996353101874,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [
+		{
+			"name": "Aberto",
+			"type": "boolean",
+			"desc": "",
+			"show": true,
+			"sid": 139291546097020
+		}
+	],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 80,
+						"height": 121,
+						"originX": 0.4875,
+						"originY": 0.5454545454545454,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/png",
+						"imageSpriteId": 4163109,
+						"collisionPoly": {
+							"points": [
+								1,
+								0,
+								1,
+								0,
+								1,
+								1,
+								0.075,
+								1,
+								0,
+								1,
+								0,
+								1,
+								0,
+								0,
+								0,
+								0
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 159521930413581,
+				"name": "normal",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			},
+			{
+				"frames": [
+					{
+						"width": 80,
+						"height": 121,
+						"originX": 0.4875,
+						"originY": 0.5454545454545454,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/png",
+						"imageSpriteId": 7350479,
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 632410794432336,
+				"name": "hover",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

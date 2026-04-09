@@ -1,0 +1,93 @@
+{
+	"name": "OBJETOcomputador",
+	"plugin-id": "Sprite",
+	"sid": 930937042261123,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [
+		{
+			"name": "Aberto",
+			"type": "boolean",
+			"desc": "",
+			"show": true,
+			"sid": 588596820955129
+		}
+	],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 85,
+						"height": 73,
+						"originX": 0.5764705882352941,
+						"originY": 0.5205479452054794,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/png",
+						"imageSpriteId": 199406,
+						"collisionPoly": {
+							"points": [
+								1,
+								0,
+								1,
+								0,
+								1,
+								1,
+								0.27058823529411763,
+								1,
+								0,
+								1,
+								0,
+								1,
+								0,
+								0,
+								0,
+								0
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 768309783366776,
+				"name": "normal",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			},
+			{
+				"frames": [
+					{
+						"width": 85,
+						"height": 73,
+						"originX": 0.5764705882352941,
+						"originY": 0.5205479452054794,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/png",
+						"imageSpriteId": 9733515,
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 159019508524805,
+				"name": "hover",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

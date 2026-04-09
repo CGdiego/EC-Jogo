@@ -1,0 +1,307 @@
+{
+	"name": "Lab",
+	"layers": [
+		{
+			"name": "Camada 0",
+			"overriden": 0,
+			"subLayers": [],
+			"instances": [
+				{
+					"type": "CENARIOsala3",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "normal",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 30,
+					"sid": 527541259320642,
+					"tags": "",
+					"instanceVariables": {},
+					"behaviors": {},
+					"instanceFolderItem": {
+						"sid": 527541259320642,
+						"expanded": true
+					},
+					"showing": true,
+					"locked": false,
+					"world": {
+						"x": 641.5,
+						"y": 287,
+						"width": 1293.7497728596304,
+						"height": 712.21296404087,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"z": 0,
+						"angle": 0
+					}
+				},
+				{
+					"type": "OBJETOaguaOxigenada",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "normal",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 24,
+					"sid": 444272279213590,
+					"tags": "",
+					"instanceVariables": {
+						"usar": false
+					},
+					"behaviors": {},
+					"instanceFolderItem": {
+						"sid": 444272279213590,
+						"expanded": true
+					},
+					"showing": true,
+					"locked": false,
+					"world": {
+						"x": 755,
+						"y": 366,
+						"width": 43.974018303019406,
+						"height": 76.95453203028396,
+						"originX": 0.4868421052631579,
+						"originY": 0.5263157894736842,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"z": 0,
+						"angle": 0
+					}
+				},
+				{
+					"type": "ControlesBack",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 28,
+					"sid": 524857029804182,
+					"tags": "",
+					"instanceVariables": {},
+					"behaviors": {},
+					"instanceFolderItem": {
+						"sid": 524857029804182,
+						"expanded": true
+					},
+					"showing": true,
+					"locked": false,
+					"world": {
+						"x": 114.27144122796457,
+						"y": 79.30936084245982,
+						"width": 52.724192427355916,
+						"height": 52.724192427355916,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"z": 0,
+						"angle": 0
+					}
+				},
+				{
+					"type": "TEXTOaguaOxigenada",
+					"properties": {
+						"text": "<Selecione onde deseja usar>",
+						"enable-bbcode": true,
+						"font": "Courier New",
+						"size": 30,
+						"line-height": 0,
+						"bold": true,
+						"italic": false,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"horizontal-alignment": "left",
+						"vertical-alignment": "center",
+						"wrapping": "word",
+						"text-direction": "ltr",
+						"icon-set": -1,
+						"initially-visible": false,
+						"origin": "center",
+						"read-aloud": false
+					},
+					"uid": 31,
+					"sid": 350978073343611,
+					"tags": "",
+					"instanceVariables": {},
+					"behaviors": {},
+					"instanceFolderItem": {
+						"sid": 350978073343611,
+						"expanded": true
+					},
+					"showing": true,
+					"locked": false,
+					"world": {
+						"x": 640,
+						"y": 591,
+						"width": 682,
+						"height": 58,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"z": 0,
+						"angle": 0
+					}
+				},
+				{
+					"type": "OBJETOarmarioVidro",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "sangue",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 32,
+					"sid": 333550209116667,
+					"tags": "",
+					"instanceVariables": {
+						"limpo": false
+					},
+					"behaviors": {},
+					"instanceFolderItem": {
+						"sid": 333550209116667,
+						"expanded": true
+					},
+					"showing": true,
+					"locked": false,
+					"world": {
+						"x": 1150,
+						"y": 355,
+						"width": 324.38566987759054,
+						"height": 483.66486107497025,
+						"originX": 0.6167664670658682,
+						"originY": 0.4718875502008032,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"z": 0,
+						"angle": 0
+					}
+				},
+				{
+					"type": "OBJETOtubosTeste",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "sangue",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 33,
+					"sid": 242682998499088,
+					"tags": "",
+					"instanceVariables": {
+						"limpo": false,
+						"aberto": false
+					},
+					"behaviors": {
+						"Interpolação": {
+							"properties": {
+								"enabled": true
+							}
+						}
+					},
+					"instanceFolderItem": {
+						"sid": 242682998499088,
+						"expanded": true
+					},
+					"showing": true,
+					"locked": false,
+					"world": {
+						"x": 1187,
+						"y": 315,
+						"width": 88,
+						"height": 76,
+						"originX": 0.46943231441048033,
+						"originY": 0.4720812182741117,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"z": 0,
+						"angle": 0
+					}
+				}
+			],
+			"sid": 869583132651031,
+			"effectTypes": [],
+			"isInitiallyVisible": true,
+			"isInitiallyInteractive": true,
+			"isHTMLElementsLayer": false,
+			"color": [
+				1,
+				1,
+				1,
+				1
+			],
+			"backgroundColor": [
+				0.3686274509803922,
+				0.3686274509803922,
+				0.3686274509803922,
+				1
+			],
+			"isTransparent": false,
+			"sampling": "auto",
+			"parallaxX": 1,
+			"parallaxY": 1,
+			"scaleRate": 1,
+			"forceOwnTexture": false,
+			"renderingMode": "3d",
+			"drawOrder": "z-order",
+			"useRenderCells": false,
+			"blendMode": "normal",
+			"zElevation": 0,
+			"global": false
+		}
+	],
+	"scene-graphs-folder-root": {
+		"items": [],
+		"subfolders": []
+	},
+	"sid": 684886043696057,
+	"nonworld-instances": [],
+	"effectTypes": [],
+	"width": 1280,
+	"height": 640,
+	"unboundedScrolling": false,
+	"sampling": "auto",
+	"vpX": 0.5,
+	"vpY": 0.5,
+	"projection": "perspective",
+	"eventSheet": "LabEventos"
+}

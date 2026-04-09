@@ -217,6 +217,15 @@
 					"parameters": {
 						"layout": "Gameplay"
 					}
+				},
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 224905457349692,
+					"parameters": {
+						"variable": "LayoutAnterior",
+						"value": "\"menu\""
+					}
 				}
 			],
 			"sid": 221962249691402

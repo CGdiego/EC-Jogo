@@ -1,0 +1,87 @@
+{
+	"name": "OBJETOarmarioVidro",
+	"plugin-id": "Sprite",
+	"sid": 142256551943694,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [
+		{
+			"name": "limpo",
+			"type": "boolean",
+			"desc": "",
+			"show": true,
+			"sid": 839547361525736
+		}
+	],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 167,
+						"height": 248,
+						"originX": 0.6167664670658682,
+						"originY": 0.4718875502008032,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/png",
+						"imageSpriteId": 3458950,
+						"collisionPoly": {
+							"points": [
+								0.10778443113772447,
+								0.012096774193548387,
+								1,
+								0.020161290322580645,
+								1,
+								0.9475806451612904,
+								1,
+								0.9879032258064516,
+								0.023952095808383318,
+								0.9032258064516129
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 138550180241195,
+				"name": "normal",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			},
+			{
+				"frames": [
+					{
+						"width": 167,
+						"height": 249,
+						"originX": 0.6167664670658682,
+						"originY": 0.4718875502008032,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/png",
+						"imageSpriteId": 7154012,
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 681485702555942,
+				"name": "sangue",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

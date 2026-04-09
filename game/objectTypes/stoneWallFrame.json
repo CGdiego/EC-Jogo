@@ -1,0 +1,64 @@
+{
+	"name": "stoneWallFrame",
+	"plugin-id": "Sprite",
+	"sid": 151184604251672,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "solid",
+			"name": "Sólido",
+			"sid": 800776342855423
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 161,
+						"height": 707,
+						"originX": 0.9201033910728753,
+						"originY": 0.15626283658408754,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/png",
+						"imageSpriteId": 1215173,
+						"collisionPoly": {
+							"points": [
+								0.9299795532579761,
+								0,
+								1,
+								0,
+								1,
+								0,
+								1,
+								1,
+								0,
+								1,
+								0,
+								0,
+								0.02137263222869487,
+								0
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 927776335310608,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}
