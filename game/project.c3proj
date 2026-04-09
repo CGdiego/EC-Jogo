@@ -15,6 +15,13 @@
 		},
 		{
 			"type": "plugin",
+			"id": "HTMLElement",
+			"name": "Elemento HTML",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
 			"id": "Keyboard",
 			"name": "Teclado",
 			"author": "Scirra",
@@ -113,7 +120,9 @@
 			"stoneWallFrame",
 			"TEXTOaguaOxigenada",
 			"OBJETOarmarioVidro",
-			"OBJETOtubosTeste"
+			"OBJETOtubosTeste",
+			"HTMLterminal",
+			"HTML"
 		],
 		"subfolders": []
 	},
@@ -238,7 +247,7 @@
 				{
 					"name": "styleProtocoloSanidade.css",
 					"type": "text/css",
-					"sid": 211486705999755,
+					"sid": 762329264609037,
 					"file-info": {
 						"purpose": "stylesheet"
 					}
