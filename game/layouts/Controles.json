@@ -44,7 +44,7 @@
 					}
 				},
 				{
-					"type": "BlueDKey",
+					"type": "BlueRightKey",
 					"properties": {
 						"initially-visible": false,
 						"initial-animation": "Animation 1",
@@ -64,10 +64,10 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 270.02316177619974,
-						"y": 290.3038027564496,
-						"width": 45.71409643669915,
-						"height": 47.66479951121107,
+						"x": 726.563910188125,
+						"y": 390.0304962682079,
+						"width": 44.6385334585531,
+						"height": 47.66480359634153,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -81,7 +81,7 @@
 					}
 				},
 				{
-					"type": "BlueAKey",
+					"type": "BlueLeftKey",
 					"properties": {
 						"initially-visible": false,
 						"initial-animation": "Animation 1",
@@ -101,10 +101,10 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 174.70693734438277,
-						"y": 290.303803,
-						"width": 45.714096,
-						"height": 47.6648,
+						"x": 633.452975059299,
+						"y": 389.9923845749214,
+						"width": 44.74364923205979,
+						"height": 47.770317138170284,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -179,6 +179,43 @@
 						"y": 35,
 						"width": 54.10480464620358,
 						"height": 54.10480464620358,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"z": 0,
+						"angle": 0
+					}
+				},
+				{
+					"type": "BlueEKey",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Default",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 42,
+					"sid": 544147984534942,
+					"tags": "",
+					"instanceVariables": {},
+					"behaviors": {},
+					"instanceFolderItem": {
+						"sid": 544147984534942,
+						"expanded": true
+					},
+					"showing": true,
+					"locked": false,
+					"world": {
+						"x": 258.8614563741719,
+						"y": 241.217683387991,
+						"width": 45.63169843442053,
+						"height": 47.25635861629759,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [

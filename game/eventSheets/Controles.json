@@ -16,7 +16,7 @@
 			"actions": [
 				{
 					"id": "set-visible",
-					"objectClass": "BlueDKey",
+					"objectClass": "BlueRightKey",
 					"sid": 381535495308099,
 					"parameters": {
 						"visibility": "visible"
@@ -49,7 +49,7 @@
 			"actions": [
 				{
 					"id": "set-visible",
-					"objectClass": "BlueDKey",
+					"objectClass": "BlueRightKey",
 					"sid": 504773136092383,
 					"parameters": {
 						"visibility": "invisible"
@@ -73,6 +73,54 @@
 				{
 					"id": "key-is-down",
 					"objectClass": "Teclado",
+					"sid": 894366382445418,
+					"parameters": {
+						"key": 69
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "BlueEKey",
+					"sid": 666277106502402,
+					"parameters": {
+						"visibility": "visible"
+					}
+				}
+			],
+			"sid": 555701941253385
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-released",
+					"objectClass": "Teclado",
+					"sid": 961828244987077,
+					"parameters": {
+						"key": 69
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "BlueEKey",
+					"sid": 553686014762288,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				}
+			],
+			"sid": 908498793403007
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "key-is-down",
+					"objectClass": "Teclado",
 					"sid": 952634730969136,
 					"parameters": {
 						"key": 37
@@ -82,7 +130,7 @@
 			"actions": [
 				{
 					"id": "set-visible",
-					"objectClass": "BlueAKey",
+					"objectClass": "BlueLeftKey",
 					"sid": 843560634383133,
 					"parameters": {
 						"visibility": "visible"
@@ -123,7 +171,7 @@
 			"actions": [
 				{
 					"id": "set-visible",
-					"objectClass": "BlueAKey",
+					"objectClass": "BlueLeftKey",
 					"sid": 107548004551932,
 					"parameters": {
 						"visibility": "invisible"
