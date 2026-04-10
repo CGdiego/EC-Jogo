@@ -613,6 +613,14 @@
 					"parameters": {
 						"state": "disabled"
 					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "CONVERSAnome",
+					"sid": 167659408956888,
+					"parameters": {
+						"text": "\"> Olá, Dr. \" & usuario & \"! O protocolo será Iniciado.\""
+					}
 				}
 			],
 			"sid": 274298633785544
@@ -844,20 +852,30 @@
 			"conditions": [
 				{
 					"id": "on-clicked",
-					"objectClass": "sairLab",
-					"sid": 915610404271728
+					"objectClass": "BOTAOsairCodigo",
+					"sid": 625886972183599
 				},
 				{
-					"id": "compare-text",
-					"objectClass": "codeInput",
-					"sid": 554008649997298,
+					"id": "compare-two-values",
+					"objectClass": "System",
+					"sid": 572672086721122,
 					"parameters": {
-						"text": "\"333224\"",
-						"case": "case-insensitive"
+						"first-value": "int(INPUTsairCodigo.Text)",
+						"comparison": 0,
+						"second-value": "333224"
 					}
 				}
 			],
-			"actions": [],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 857178917965815,
+					"parameters": {
+						"layout": "FinalCutScene"
+					}
+				}
+			],
 			"sid": 698453047407330
 		}
 	],

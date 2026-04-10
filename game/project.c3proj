@@ -70,9 +70,23 @@
 			"bundled": false
 		},
 		{
+			"type": "plugin",
+			"id": "video",
+			"name": "Video",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
 			"type": "behavior",
 			"id": "Platform",
 			"name": "Platform",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Timer",
+			"name": "Timer",
 			"author": "Scirra",
 			"bundled": false
 		},
@@ -136,12 +150,13 @@
 			"OBJETOarmarioVidro",
 			"OBJETOtubosTeste",
 			"HTMLterminal",
-			"codeInput",
 			"TiledBackground",
 			"OBJETOfechadura",
 			"List",
 			"INPUTsairCodigo",
-			"BOTAOsairCodigo"
+			"BOTAOsairCodigo",
+			"Video",
+			"CONVERSAnome"
 		],
 		"subfolders": []
 	},
@@ -157,7 +172,8 @@
 			"Gameplay",
 			"Menu",
 			"Controles",
-			"Lab"
+			"Lab",
+			"FinalCutScene"
 		],
 		"subfolders": []
 	},
@@ -266,7 +282,7 @@
 				{
 					"name": "styleProtocoloSanidade.css",
 					"type": "text/css",
-					"sid": 887519855032963,
+					"sid": 503889401744093,
 					"file-info": {
 						"purpose": "stylesheet"
 					}

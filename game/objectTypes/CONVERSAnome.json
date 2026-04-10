@@ -1,0 +1,16 @@
+{
+	"name": "CONVERSAnome",
+	"plugin-id": "Text",
+	"sid": 509365400387882,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Timer",
+			"name": "Timer",
+			"sid": 161420021400488
+		}
+	],
+	"effectTypes": []
+}

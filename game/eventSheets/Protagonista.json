@@ -235,6 +235,14 @@
 					"parameters": {
 						"object": "CENARIOsala2"
 					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "CONVERSAnome",
+					"sid": 492672522844747,
+					"parameters": {
+						"text": "\"\""
+					}
 				}
 			],
 			"sid": 820619909621631
