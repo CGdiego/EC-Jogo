@@ -132,8 +132,8 @@
 			"FundoMenu",
 			"TxtJogar",
 			"BGControles",
-			"BlueRightKey",
-			"BlueLeftKey",
+			"BlueDKey",
+			"BlueAKey",
 			"ControlesPersonagem",
 			"TxtControles",
 			"ControlesBack",
@@ -156,8 +156,7 @@
 			"INPUTsairCodigo",
 			"BOTAOsairCodigo",
 			"Video",
-			"CONVERSAnome",
-			"BlueEKey"
+			"CONVERSAnome"
 		],
 		"subfolders": []
 	},

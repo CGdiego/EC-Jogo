@@ -1,7 +1,7 @@
 {
-	"name": "BlueLeftKey",
+	"name": "BlueDKey",
 	"plugin-id": "Sprite",
-	"sid": 287524455295856,
+	"sid": 105516106663237,
 	"isGlobal": false,
 	"editorNewInstanceIsReplica": true,
 	"instanceVariables": [],
@@ -12,7 +12,7 @@
 			{
 				"frames": [
 					{
-						"width": 60,
+						"width": 57,
 						"height": 62,
 						"originX": 0.5,
 						"originY": 0.5,
@@ -20,7 +20,7 @@
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
 						"fileType": "image/png",
-						"imageSpriteId": 3679247,
+						"imageSpriteId": 6627421,
 						"collisionPoly": {
 							"points": [
 								0.07017543859649122,
@@ -46,7 +46,7 @@
 						"tag": ""
 					}
 				],
-				"sid": 503316969163148,
+				"sid": 901196767218887,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

@@ -1,7 +1,7 @@
 {
-	"name": "BlueRightKey",
+	"name": "BlueAKey",
 	"plugin-id": "Sprite",
-	"sid": 105516106663237,
+	"sid": 287524455295856,
 	"isGlobal": false,
 	"editorNewInstanceIsReplica": true,
 	"instanceVariables": [],
@@ -12,7 +12,7 @@
 			{
 				"frames": [
 					{
-						"width": 61,
+						"width": 57,
 						"height": 62,
 						"originX": 0.5,
 						"originY": 0.5,
@@ -20,7 +20,7 @@
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
 						"fileType": "image/png",
-						"imageSpriteId": 6627421,
+						"imageSpriteId": 3679247,
 						"collisionPoly": {
 							"points": [
 								0.07017543859649122,
@@ -46,7 +46,7 @@
 						"tag": ""
 					}
 				],
-				"sid": 901196767218887,
+				"sid": 503316969163148,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,
