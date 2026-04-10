@@ -1,0 +1,60 @@
+{
+	"name": "BlueLeftKey",
+	"plugin-id": "Sprite",
+	"sid": 287524455295856,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 60,
+						"height": 62,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/png",
+						"imageSpriteId": 3679247,
+						"collisionPoly": {
+							"points": [
+								0.07017543859649122,
+								0,
+								0.9298245614035088,
+								0,
+								1,
+								0.06451612903225806,
+								1,
+								0.9354838709677419,
+								0.9298245614035088,
+								1,
+								0.07017543859649122,
+								1,
+								0,
+								0.9354838709677419,
+								0,
+								0.06451612903225806
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 503316969163148,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}
