@@ -498,6 +498,62 @@
 						"z": 0,
 						"angle": 0
 					}
+				},
+				{
+					"type": "HTMLterminal",
+					"properties": {
+						"tag": "",
+						"content": "",
+						"content-type": "html",
+						"initially-visible": true,
+						"id": "terminal",
+						"class": "",
+						"allow-context-menu": false,
+						"stop-input-events": "no",
+						"origin": "top-left",
+						"set-color": true,
+						"default-color": [
+							0,
+							0,
+							0,
+							0
+						],
+						"set-background-color": false,
+						"default-background-color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"auto-font-size": true,
+						"allow-text-selection": false,
+						"style-attribute": ""
+					},
+					"uid": 34,
+					"sid": 917086499059649,
+					"tags": "",
+					"instanceVariables": {},
+					"behaviors": {},
+					"instanceFolderItem": {
+						"sid": 917086499059649,
+						"expanded": true
+					},
+					"showing": true,
+					"locked": false,
+					"world": {
+						"x": 1541,
+						"y": 70,
+						"width": 758,
+						"height": 502,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						]
+					}
 				}
 			],
 			"sid": 957332903479755,
@@ -683,8 +739,8 @@
 					"world": {
 						"x": 173,
 						"y": 544,
-						"width": 112.44554237496477,
-						"height": 112.44554237496477,
+						"width": 112.44554237496476,
+						"height": 112.44554237496476,
 						"originX": 0.9473684210526315,
 						"originY": 0.5986842105263158,
 						"color": [
@@ -695,118 +751,6 @@
 						],
 						"z": 0,
 						"angle": 0
-					}
-				},
-				{
-					"type": "HTMLterminal",
-					"properties": {
-						"tag": "div",
-						"content": "",
-						"content-type": "html",
-						"initially-visible": true,
-						"id": "terminal",
-						"class": "",
-						"allow-context-menu": false,
-						"stop-input-events": "no",
-						"origin": "top-left",
-						"set-color": true,
-						"default-color": [
-							0,
-							0,
-							0,
-							0
-						],
-						"set-background-color": false,
-						"default-background-color": [
-							1,
-							1,
-							1,
-							0
-						],
-						"auto-font-size": true,
-						"allow-text-selection": false,
-						"style-attribute": ""
-					},
-					"uid": 34,
-					"sid": 917086499059649,
-					"tags": "",
-					"instanceVariables": {},
-					"behaviors": {},
-					"instanceFolderItem": {
-						"sid": 917086499059649,
-						"expanded": true
-					},
-					"showing": true,
-					"locked": false,
-					"world": {
-						"x": 1541,
-						"y": 70,
-						"width": 758,
-						"height": 502,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						]
-					}
-				},
-				{
-					"type": "HTML",
-					"properties": {
-						"tag": "div",
-						"content": "",
-						"content-type": "html",
-						"initially-visible": true,
-						"id": "",
-						"class": "",
-						"allow-context-menu": false,
-						"stop-input-events": "no",
-						"origin": "top-left",
-						"set-color": true,
-						"default-color": [
-							0,
-							0,
-							0,
-							0
-						],
-						"set-background-color": false,
-						"default-background-color": [
-							1,
-							1,
-							1,
-							0
-						],
-						"auto-font-size": true,
-						"allow-text-selection": false,
-						"style-attribute": ""
-					},
-					"uid": 35,
-					"sid": 313799119963036,
-					"tags": "",
-					"instanceVariables": {},
-					"behaviors": {},
-					"instanceFolderItem": {
-						"sid": 313799119963036,
-						"expanded": true
-					},
-					"showing": true,
-					"locked": false,
-					"world": {
-						"x": 1871,
-						"y": 273,
-						"width": 200,
-						"height": 100,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						]
 					}
 				}
 			],
