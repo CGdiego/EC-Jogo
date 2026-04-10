@@ -125,6 +125,14 @@
 					"parameters": {
 						"instance-variable": "Aberto"
 					}
+				},
+				{
+					"id": "is-boolean-instance-variable-set",
+					"objectClass": "OBJETOcomputador",
+					"sid": 409123267425439,
+					"parameters": {
+						"instance-variable": "Aberto"
+					}
 				}
 			],
 			"actions": [

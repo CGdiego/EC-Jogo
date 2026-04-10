@@ -68,96 +68,125 @@
   box-shadow: none;
 }
 
-.terminal {
-  font-family: monospace;
-  color: #00ff88;
-  background: #000;
-  padding: 20px;
-  width: fit-content;
+@font-face {
+  font-family: 'PixelFont';
+  src: url('Geo-Regular.ttf') format('truetype');
+  font-display: swap;
 }
 
-/* linhas padrão */
-.line {
+/* INPUT = visor da fechadura */
+.code-screen {
+  font-family: 'PixelFont', monospace;
   position: relative;
-  margin: 6px 0;
-  cursor: pointer;
-}
 
-/* ========================= */
-/* 🟢 STABLE (os verdadeiros) */
-/* ========================= */
+  font-size: 40px;
+  padding: 30px;
+  width: 260px;
+  text-align: center;
 
-.stable {
   color: #00ff88;
+  background: #001a12;
+
+  border: 4px solid #000;
+  outline: none;
+
+  letter-spacing: 12px;
+  text-transform: uppercase;
+
+  display: block;
+  margin: 0 auto 12px;
+
+  box-shadow:
+    6px 6px 0 #000,
+    0 0 0 6px #2a2a2a,
+    0 0 0 10px #1a1a1a,
+    inset 2px 2px 0 #003322,
+    inset -2px -2px 0 #00aa66;
 }
 
-/* segredo aparece no hover */
-.stable:hover::after {
-  content: "  > " attr(data-code);
-  color: #ffff00;
-  margin-left: 10px;
-  text-shadow: 0 0 5px #ffff00;
-}
-
-/* leve brilho pra sugerir importância */
-.stable {
-  text-shadow: 0 0 4px #00ff88;
-}
-
-/* ========================= */
-/* 🔴 ERROR (enganam o player) */
-/* ========================= */
-
-.error {
-  color: #ff3b3b;
-  animation: glitch 0.2s infinite;
-}
-
-/* mostra lixo ao invés de código */
-.error:hover::after {
-  content: "  > ###";
-  color: red;
-}
-
-/* efeito glitch simples */
-@keyframes glitch {
-  0% { transform: translate(0); }
-  25% { transform: translate(-1px, 1px); }
-  50% { transform: translate(1px, -1px); }
-  75% { transform: translate(-1px, -1px); }
-  100% { transform: translate(0); }
-}
-
-/* ========================= */
-/* 🟡 CRITICAL (confunde mais) */
-/* ========================= */
-
-.critical {
-  color: #ffaa00;
-}
-
-/* mostra símbolo ambíguo */
-.critical:hover::after {
-  content: "  > ?";
-  color: #ffaa00;
-}
-
-/* ========================= */
-/* 💀 EFEITO GLOBAL (opcional) */
-/* ========================= */
-
-/* scanline estilo monitor antigo */
-.terminal::before {
+/* parafusos */
+.code-screen::before,
+.code-screen::after {
   content: "";
-  pointer-events: none;
   position: absolute;
-  width: 100%;
-  height: 100%;
-  background: repeating-linear-gradient(
-    to bottom,
-    rgba(0,255,100,0.05),
-    rgba(0,255,100,0.05) 1px,
-    transparent 1px,
-    transparent 3px
-  );
+  width: 6px;
+  height: 6px;
+  background: #777;
+  border: 2px solid #000;
+}
+
+.code-screen::before {
+  top: -8px;
+  left: -8px;
+}
+
+.code-screen::after {
+  bottom: -8px;
+  right: -8px;
+}
+
+/* placeholder */
+.code-screen::placeholder {
+  color: #007744;
+}
+
+/* foco = ativado */
+.code-screen:focus {
+  background: #00281a;
+  box-shadow:
+    0 0 10px #00ff88,
+    6px 6px 0 #000,
+    0 0 0 6px #2a2a2a,
+    0 0 0 10px #1a1a1a,
+    inset 2px 2px 0 #003322;
+}
+
+/* BOTÃO = trava */
+.unlock-trigger {
+  font-family: 'PixelFont', monospace;
+  position: relative;
+
+  font-size: 18px;
+  padding: 8px 16px;
+
+  color: #fff;
+  background: #5a5a5a;
+
+  border: 4px solid #000;
+  cursor: pointer;
+
+  display: block;
+  margin: 0 auto;
+
+  box-shadow:
+    6px 6px 0 #000,
+    0 0 0 6px #2a2a2a,
+    inset 2px 2px 0 #888,
+    inset -2px -2px 0 #333;
+
+  transition: all 0.1s ease;
+}
+
+/* etiqueta técnica */
+.unlock-trigger::before {
+  content: "CONFIRM";
+  position: absolute;
+  top: -18px;
+  left: 0;
+  right: 0;
+
+  font-size: 10px;
+  color: #999;
+  text-align: center;
+}
+
+/* hover */
+.unlock-trigger:hover {
+  background: #6f6f6f;
+}
+
+/* pressionado */
+.unlock-trigger:active {
+  transform: translate(6px, 6px);
+  box-shadow: none;
 }

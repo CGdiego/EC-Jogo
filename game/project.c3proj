@@ -29,6 +29,13 @@
 		},
 		{
 			"type": "plugin",
+			"id": "List",
+			"name": "List",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
 			"id": "Mouse",
 			"name": "Mouse",
 			"author": "Scirra",
@@ -52,6 +59,13 @@
 			"type": "plugin",
 			"id": "TextBox",
 			"name": "Text input",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "TiledBg",
+			"name": "Tiled Background",
 			"author": "Scirra",
 			"bundled": false
 		},
@@ -121,7 +135,13 @@
 			"TEXTOaguaOxigenada",
 			"OBJETOarmarioVidro",
 			"OBJETOtubosTeste",
-			"HTMLterminal"
+			"HTMLterminal",
+			"codeInput",
+			"TiledBackground",
+			"OBJETOfechadura",
+			"List",
+			"INPUTsairCodigo",
+			"BOTAOsairCodigo"
 		],
 		"subfolders": []
 	},
@@ -246,7 +266,7 @@
 				{
 					"name": "styleProtocoloSanidade.css",
 					"type": "text/css",
-					"sid": 762329264609037,
+					"sid": 887519855032963,
 					"file-info": {
 						"purpose": "stylesheet"
 					}
