@@ -213,9 +213,9 @@
 				{
 					"id": "go-to-layout",
 					"objectClass": "System",
-					"sid": 400380218320838,
+					"sid": 731091290446345,
 					"parameters": {
-						"layout": "Gameplay"
+						"layout": "CutcseneInicial"
 					}
 				},
 				{
@@ -255,6 +255,27 @@
 				}
 			],
 			"sid": 612775811979471
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "has-ended",
+					"objectClass": "CUTSCENEinicial",
+					"sid": 924686794163826
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 653957713223241,
+					"parameters": {
+						"layout": "Gameplay"
+					}
+				}
+			],
+			"sid": 831560600407192
 		}
 	],
 	"sid": 611796010222163

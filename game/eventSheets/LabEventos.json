@@ -5,53 +5,6 @@
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "cursor-is-over-object",
-					"objectClass": "Mouse",
-					"sid": 653438793696119,
-					"parameters": {
-						"object": "OBJETOaguaOxigenada"
-					}
-				}
-			],
-			"actions": [
-				{
-					"id": "set-animation",
-					"objectClass": "OBJETOaguaOxigenada",
-					"sid": 276792866484044,
-					"parameters": {
-						"animation": "\"hover\"",
-						"from": "beginning"
-					}
-				}
-			],
-			"sid": 712722776934796
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "else",
-					"objectClass": "System",
-					"sid": 115173624156771
-				}
-			],
-			"actions": [
-				{
-					"id": "set-animation",
-					"objectClass": "OBJETOaguaOxigenada",
-					"sid": 836841649161857,
-					"parameters": {
-						"animation": "\"normal\"",
-						"from": "beginning"
-					}
-				}
-			],
-			"sid": 717980768196226
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
 					"id": "on-object-clicked",
 					"objectClass": "Mouse",
 					"sid": 581085878755242,

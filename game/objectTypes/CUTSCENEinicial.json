@@ -1,0 +1,16 @@
+{
+	"name": "CUTSCENEinicial",
+	"plugin-id": "video",
+	"sid": 345964070947553,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Timer",
+			"name": "Cronômetro",
+			"sid": 730055732780804
+		}
+	],
+	"effectTypes": []
+}

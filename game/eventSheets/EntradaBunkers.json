@@ -286,53 +286,6 @@
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "cursor-is-over-object",
-					"objectClass": "Mouse",
-					"sid": 398146079908702,
-					"parameters": {
-						"object": "OBJETOlista1"
-					}
-				}
-			],
-			"actions": [
-				{
-					"id": "set-animation",
-					"objectClass": "OBJETOlista1",
-					"sid": 934774382319925,
-					"parameters": {
-						"animation": "\"hover\"",
-						"from": "beginning"
-					}
-				}
-			],
-			"sid": 934491547018017
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "else",
-					"objectClass": "System",
-					"sid": 479754516684250
-				}
-			],
-			"actions": [
-				{
-					"id": "set-animation",
-					"objectClass": "OBJETOlista1",
-					"sid": 611448954748875,
-					"parameters": {
-						"animation": "\"normal\"",
-						"from": "beginning"
-					}
-				}
-			],
-			"sid": 230781868223637
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
 					"id": "on-object-clicked",
 					"objectClass": "Mouse",
 					"sid": 233774619466910,
