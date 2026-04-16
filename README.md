@@ -130,7 +130,7 @@ flowchart TD
 | Nome |
 |------|
 | Carolina Faria Cassaro |
-| Diego Fonseca de Oliveira Bonfim Soares |
+| Diego Soares |
 | Guilherme Ribeiro Rocha |
 | Josemar Jorge Correia Filho |
 
